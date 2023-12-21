@@ -1,0 +1,565 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-game-development" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.0.1">
+<title data-rh="true">🎮 Game development | awesome lua</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://amd-nick.github.io/game-development"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="🎮 Game development | awesome lua"><meta data-rh="true" name="description" content="add repo"><meta data-rh="true" property="og:description" content="add repo"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://amd-nick.github.io/game-development"><link data-rh="true" rel="alternate" href="https://amd-nick.github.io/game-development" hreflang="en"><link data-rh="true" rel="alternate" href="https://amd-nick.github.io/game-development" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.ebb2964c.css">
+<script src="/assets/js/runtime~main.e1f70db6.js" defer="defer"></script>
+<script src="/assets/js/main.b31d0a02.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" alt="Official Lua Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" alt="Official Lua Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Awesome Lua</b></a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/AMD-NICK/awesome-lua" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Add repo<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/">All In One Simple List</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/development">🚧 Development</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/utils-small-libs">🔧 Utils / Small libs</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/web">🕸️ Web</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/api-services">🔗 API services</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/applications-related">🧶 Applications-related</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/game-development">🎮 Game development</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/storages">📦 Storages</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/unsorted">😕 Unsorted</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">🎮 Game development</span><meta itemprop="position" content="1"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>🎮 Game development</h1>
+<p><a href="https://github.com/AMD-NICK/awesome-lua/edit/master/README.md" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://img.shields.io/badge/Add_Your_Repo-green?style=for-the-badge&amp;logo=github" alt="add repo" class="img_ev3q"></a>
+<img loading="lazy" src="https://img.shields.io/badge/Last_Update-2023/12/21-blue?style=for-the-badge" alt="last update" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/Total_Items-108-blue?style=for-the-badge&amp;logo=awesomelists" alt="total items" class="img_ev3q"></p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Welcome to the collection of Lua repositories!</strong> 👋</div><div class="admonitionContent_BuS1"><p>All repositories are <strong>automatically</strong> sorted by a specific <code>Score</code>, which takes into account the date of the last commit, the number of stars, and also gives a slight advantage to repositories that have been recently created.</p><p>The meta-information about repositories is <strong>automatically updated</strong> regularly. <br>
+<!-- -->The generator for these pages is also written in <strong>Lua</strong> 🌑</p><p>You can add your own or someone else&#x27;s repository to the list by clicking the green button at the top or by creating an Issue. For every repository you add, you get 9000 love from me ❤️. It&#x27;s easy!</p><p>I would also welcome your suggestions on how to improve the structuring of repositories.</p></div></div>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Circles Legend</div><div class="admonitionContent_BuS1"><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Last commit..</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">⚪ 0-7 days ago     🟢 8-30 days ago</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">🟡 31-60 days ago   🟠 61-90 days ago</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">🟤 91-180 days ago  🔴 181-365 days ago</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">⚫ 366+ days ago</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="love2d">love2d<a href="#love2d" class="hash-link" aria-label="Direct link to love2d" title="Direct link to love2d">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 57 <a href="https://github.com/1bardesign/batteries" target="_blank" rel="noopener noreferrer">1bardesign/batteries</a> – Reusable dependencies for games made with lua (especially with love)</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>framework</code>, <code>helper</code>, <code>love2d</code>, <code>lua</code>, <code>lua-library</code> <br>
+<strong>Watchers</strong>: 6 <strong>Forks</strong>: 28 <strong>Stars</strong>: 252 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2023-12-18 (2 days ago) <br>
+<strong>Created at</strong>: 2020-01-29 <br>
+<strong>License</strong>: zlib License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 54 <a href="https://github.com/love2d-community/love-api" target="_blank" rel="noopener noreferrer">love2d-community/love-api</a> – The whole LÖVE wiki in a Lua table.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>love2d</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 17 <strong>Forks</strong>: 44 <strong>Stars</strong>: 271 <strong>Issues</strong>: 13 <br>
+<strong>Last commit</strong>: 2023-12-09 (11 days ago) <br>
+<strong>Created at</strong>: 2015-03-24 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 51 <a href="https://github.com/groverburger/g3d" target="_blank" rel="noopener noreferrer">groverburger/g3d</a> – Simple and easy 3D engine for LÖVE.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>g3d</code>, <code>love2d</code>, <code>lua</code>, <code>simple</code> <br>
+<strong>Watchers</strong>: 30 <strong>Forks</strong>: 27 <strong>Stars</strong>: 463 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2023-11-08 (42 days ago) <br>
+<strong>Created at</strong>: 2019-02-26 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 44 <a href="https://github.com/LIKO-12/LIKO-12" target="_blank" rel="noopener noreferrer">LIKO-12/LIKO-12</a> – LIKO-12 is an open source fantasy computer made using LÖVE</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>android</code>, <code>fantasy-computer</code>, <code>fantasy-console</code>, <code>liko-12</code>, <code>linux</code>, <code>love</code>, <code>love2d</code>, <code>love2d-framework</code>, <code>lua</code>, <code>windows</code> <br>
+<strong>Watchers</strong>: 62 <strong>Forks</strong>: 71 <strong>Stars</strong>: 1114 <strong>Issues</strong>: 37 <br>
+<strong>Last commit</strong>: 2023-03-02 (293 days ago) <br>
+<strong>Created at</strong>: 2016-09-16 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 40 <a href="https://github.com/games50/pong" target="_blank" rel="noopener noreferrer">games50/pong</a> – Atari&#x27;s 1972 classic, implemented in Lua with LÖVE</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 62 <strong>Forks</strong>: 1085 <strong>Stars</strong>: 793 <strong>Issues</strong>: 55 <br>
+<strong>Last commit</strong>: 2023-09-10 (101 days ago) <br>
+<strong>Created at</strong>: 2018-01-22 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 39 <a href="https://github.com/Overtorment/NoobHub" target="_blank" rel="noopener noreferrer">Overtorment/NoobHub</a> – 🌐🔥 Network multiplayer and messaging for CoronaSDK, Moai, Gideros, LÖVE &amp; Defold</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>corona-sdk</code>, <code>gideros</code>, <code>love2d</code>, <code>lua</code>, <code>moai</code>, <code>networking</code>, <code>nodejs</code>, <code>pubsub</code>, <code>wtfpl</code> <br>
+<strong>Watchers</strong>: 39 <strong>Forks</strong>: 52 <strong>Stars</strong>: 296 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2023-10-26 (55 days ago) <br>
+<strong>Created at</strong>: 2012-08-04 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 36 <a href="https://github.com/picolove/picolove" target="_blank" rel="noopener noreferrer">picolove/picolove</a> – PICO-8 Reimplementation in Love2D. Chat: <a href="https://discord.gg/jGEMUse6RM" target="_blank" rel="noopener noreferrer">https://discord.gg/jGEMUse6RM</a></summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>android</code>, <code>emulator</code>, <code>fantasy-console</code>, <code>linux</code>, <code>love2d</code>, <code>lua</code>, <code>luajit</code>, <code>osx</code>, <code>pico-8</code>, <code>pico8</code>, <code>virtual-console</code>, <code>windows</code> <br>
+<strong>Watchers</strong>: 27 <strong>Forks</strong>: 66 <strong>Stars</strong>: 688 <strong>Issues</strong>: 17 <br>
+<strong>Last commit</strong>: 2023-09-12 (99 days ago) <br>
+<strong>Created at</strong>: 2015-09-09 <br>
+<strong>License</strong>: zlib License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 34 <a href="https://github.com/Planimeter/game-engine-2d" target="_blank" rel="noopener noreferrer">Planimeter/game-engine-2d</a> – Planimeter Game Engine 2D - LÖVE-based game engine for Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>2d-game-engine</code>, <code>game-development</code>, <code>game-engine</code>, <code>gamedev</code>, <code>grid-sdk</code>, <code>love2d</code>, <code>lua</code>, <code>luajit</code> <br>
+<strong>Watchers</strong>: 36 <strong>Forks</strong>: 77 <strong>Stars</strong>: 709 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2022-10-03 (443 days ago) <br>
+<strong>Created at</strong>: 2014-10-18 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟠 29 <a href="https://github.com/kikito/love-loader" target="_blank" rel="noopener noreferrer">kikito/love-loader</a> – Threaded resource loading for LÖVE</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code> <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 17 <strong>Stars</strong>: 123 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2023-10-15 (66 days ago) <br>
+<strong>Created at</strong>: 2012-01-29 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 27 <a href="https://github.com/MisterDA/love-release" target="_blank" rel="noopener noreferrer">MisterDA/love-release</a> – <!-- -->💌<!-- --> Lua script that makes LÖVE game release easier</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>love</code>, <code>love2d</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 26 <strong>Stars</strong>: 441 <strong>Issues</strong>: 11 <br>
+<strong>Last commit</strong>: 2020-12-12 (1103 days ago) <br>
+<strong>Created at</strong>: 2013-11-05 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 23 <a href="https://github.com/lovetoys/lovetoys" target="_blank" rel="noopener noreferrer">lovetoys/lovetoys</a> – <!-- -->🍌<!-- --> a full-featured Entity-Component-System framework for making games with lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>entity-component-system</code>, <code>game-development</code>, <code>gamejam</code>, <code>love2d</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 18 <strong>Forks</strong>: 34 <strong>Stars</strong>: 294 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2022-10-13 (433 days ago) <br>
+<strong>Created at</strong>: 2013-06-10 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 21 <a href="https://github.com/rxi/lurker" target="_blank" rel="noopener noreferrer">rxi/lurker</a> – Auto-swaps changed Lua files in a running LÖVE project</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 19 <strong>Forks</strong>: 27 <strong>Stars</strong>: 253 <strong>Issues</strong>: 8 <br>
+<strong>Last commit</strong>: 2023-07-22 (151 days ago) <br>
+<strong>Created at</strong>: 2014-03-05 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 21 <a href="https://github.com/paulofmandown/rotLove" target="_blank" rel="noopener noreferrer">paulofmandown/rotLove</a> – Roguelike Toolkit in Love. A Love2D/lua port of rot.js</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>love2d</code>, <code>lua</code>, <code>roguelike</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 24 <strong>Stars</strong>: 240 <strong>Issues</strong>: 9 <br>
+<strong>Last commit</strong>: 2022-04-03 (626 days ago) <br>
+<strong>Created at</strong>: 2013-04-12 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 20 <a href="https://github.com/tanema/light_world.lua" target="_blank" rel="noopener noreferrer">tanema/light_world.lua</a> – A lighting model made for love 2d</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 15 <strong>Forks</strong>: 18 <strong>Stars</strong>: 215 <strong>Issues</strong>: 9 <br>
+<strong>Last commit</strong>: 2021-11-20 (761 days ago) <br>
+<strong>Created at</strong>: 2014-10-24 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 19 <a href="https://github.com/Kadoba/Advanced-Tiled-Loader" target="_blank" rel="noopener noreferrer">Kadoba/Advanced-Tiled-Loader</a> – Imports Tiled maps into Lua for the LÖVE game engine. (NO LONGER IN DEVELOPMENT)</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 14 <strong>Forks</strong>: 30 <strong>Stars</strong>: 180 <strong>Issues</strong>: 10 <br>
+<strong>Last commit</strong>: 2023-08-04 (138 days ago) <br>
+<strong>Created at</strong>: 2011-08-18 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 18 <a href="https://github.com/camchenry/sock.lua" target="_blank" rel="noopener noreferrer">camchenry/sock.lua</a> – A Lua networking library for LÖVE games.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>enet</code>, <code>gamedev</code>, <code>love2d</code>, <code>lua</code>, <code>networking</code>, <code>online</code> <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 7 <strong>Stars</strong>: 162 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2020-12-31 (1084 days ago) <br>
+<strong>Created at</strong>: 2016-07-22 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 18 <a href="https://github.com/matiasah/shadows" target="_blank" rel="noopener noreferrer">matiasah/shadows</a> – Shädows - A Shadows &amp; Lights engine for löve</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>glsl</code>, <code>lighting-effects</code>, <code>lights-engine</code>, <code>love2d</code>, <code>lua</code>, <code>luajit</code>, <code>opengl</code>, <code>opengl-es</code>, <code>shadow</code> <br>
+<strong>Watchers</strong>: 14 <strong>Forks</strong>: 11 <strong>Stars</strong>: 161 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2020-07-08 (1261 days ago) <br>
+<strong>Created at</strong>: 2016-06-13 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 18 <a href="https://github.com/kyleschaub/udemy-love2d" target="_blank" rel="noopener noreferrer">kyleschaub/udemy-love2d</a> – Full source code for all projects from my course on Lua and Love2D</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 37 <strong>Forks</strong>: 47 <strong>Stars</strong>: 148 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2020-09-12 (1195 days ago) <br>
+<strong>Created at</strong>: 2018-01-28 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/piXelicidio/locas-ants" target="_blank" rel="noopener noreferrer">piXelicidio/locas-ants</a> – A modern Lua+Löve2D remake of my Ant Colony Simulation </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>ants</code>, <code>lua</code>, <code>sandbox-game</code>, <code>simulation</code> <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 21 <strong>Stars</strong>: 139 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2021-04-12 (982 days ago) <br>
+<strong>Created at</strong>: 2017-03-26 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 16 <a href="https://github.com/rozenmad/Menori" target="_blank" rel="noopener noreferrer">rozenmad/Menori</a> – Library for 3D rendering with LÖVE.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>3d</code>, <code>love2d</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 6 <strong>Forks</strong>: 4 <strong>Stars</strong>: 108 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2023-03-21 (274 days ago) <br>
+<strong>Created at</strong>: 2020-07-26 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 15 <a href="https://github.com/HTV04/funkin-rewritten" target="_blank" rel="noopener noreferrer">HTV04/funkin-rewritten</a> – Optimized rewrite of Friday Night Funkin&#x27; built on LÖVE</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>engine</code>, <code>fnf</code>, <code>friday-night-funkin</code>, <code>funkin</code>, <code>game</code>, <code>homebrew</code>, <code>linux</code>, <code>love</code>, <code>love2d</code>, <code>lua</code>, <code>luajit</code>, <code>macos</code>, <code>nintendo-switch</code>, <code>rewrite</code>, <code>rewritten</code>, <code>rhythm</code>, <code>switch</code>, <code>windows</code> <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 37 <strong>Stars</strong>: 92 <strong>Issues</strong>: 9 <br>
+<strong>Last commit</strong>: 2023-04-23 (241 days ago) <br>
+<strong>Created at</strong>: 2021-04-07 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/MikuAuahDark/lily" target="_blank" rel="noopener noreferrer">MikuAuahDark/lily</a> – LÖVE Async Asset Loader</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>async</code>, <code>event</code>, <code>love</code>, <code>love2d</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 6 <strong>Stars</strong>: 101 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2022-06-13 (556 days ago) <br>
+<strong>Created at</strong>: 2017-12-21 <br>
+<strong>License</strong>: zlib License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/wilhantian/catui" target="_blank" rel="noopener noreferrer">wilhantian/catui</a> – A very light-weight GUI library for the Löve2D</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>gui-library</code>, <code>love2d</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 3 <strong>Forks</strong>: 14 <strong>Stars</strong>: 98 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2022-06-02 (567 days ago) <br>
+<strong>Created at</strong>: 2016-05-04 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/arthurealike/turtle.lua" target="_blank" rel="noopener noreferrer">arthurealike/turtle.lua</a> – Turtle graphics library for LÖVE.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>drawing</code>, <code>lua</code>, <code>lua-library</code>, <code>pure-lua</code>, <code>simple</code>, <code>turtle</code>, <code>turtle-library</code> <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 7 <strong>Stars</strong>: 84 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2020-10-09 (1167 days ago) <br>
+<strong>Created at</strong>: 2020-07-23 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 14 <a href="https://github.com/DarkEnergyProcessor/livesim2" target="_blank" rel="noopener noreferrer">DarkEnergyProcessor/livesim2</a> – Love Live! School Idol Festival Live Simulator</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>llsif</code>, <code>love2d</code>, <code>lovelive</code>, <code>lua</code>, <code>luajit</code>, <code>school-idol-festival</code>, <code>simulator</code>, <code>sukufesu-simulator</code> <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 13 <strong>Stars</strong>: 87 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2023-08-28 (115 days ago) <br>
+<strong>Created at</strong>: 2016-10-30 <br>
+<strong>License</strong>: zlib License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 14 <a href="https://github.com/DarkEnergyProcessor/livesim2_async" target="_blank" rel="noopener noreferrer">DarkEnergyProcessor/livesim2_async</a> – Love Live! School Idol Festival Live Simulator</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>llsif</code>, <code>love2d</code>, <code>lovelive</code>, <code>lua</code>, <code>luajit</code>, <code>school-idol-festival</code>, <code>simulator</code>, <code>sukufesu-simulator</code> <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 13 <strong>Stars</strong>: 87 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2023-08-28 (115 days ago) <br>
+<strong>Created at</strong>: 2016-10-30 <br>
+<strong>License</strong>: zlib License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/Jigoku/boxclip" target="_blank" rel="noopener noreferrer">Jigoku/boxclip</a> – 2D platformer engine using LÖVE and Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>2d-game</code>, <code>2d-platformer</code>, <code>2d-platformer-engine</code>, <code>engine</code>, <code>game</code>, <code>love2d</code>, <code>lua</code>, <code>map-editor</code> <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 8 <strong>Stars</strong>: 86 <strong>Issues</strong>: 25 <br>
+<strong>Last commit</strong>: 2022-08-17 (491 days ago) <br>
+<strong>Created at</strong>: 2015-10-02 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/superzazu/denver.lua" target="_blank" rel="noopener noreferrer">superzazu/denver.lua</a> – a simple library to help you play custom waveforms with LÖVE</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>audio</code>, <code>generation</code>, <code>library</code>, <code>love2d</code>, <code>sound</code>, <code>synthesis</code>, <code>waveform</code> <br>
+<strong>Watchers</strong>: 6 <strong>Forks</strong>: 7 <strong>Stars</strong>: 80 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2016-05-31 (2759 days ago) <br>
+<strong>Created at</strong>: 2015-01-19 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/ttwings/wuxiaLove2d" target="_blank" rel="noopener noreferrer">ttwings/wuxiaLove2d</a> – 武侠与江湖 养成类武侠游戏</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>love2d</code>, <code>lua</code>, <code>rpg-game</code>, <code>wu-xia</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 18 <strong>Stars</strong>: 72 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2019-08-22 (1581 days ago) <br>
+<strong>Created at</strong>: 2017-10-04 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/love2d-community/splashes" target="_blank" rel="noopener noreferrer">love2d-community/splashes</a> – A collection of splash screens for LÖVE</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>love</code>, <code>love2d</code>, <code>lua</code>, <code>splash</code>, <code>splash-screen</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 19 <strong>Stars</strong>: 70 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2022-04-11 (618 days ago) <br>
+<strong>Created at</strong>: 2016-02-15 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 7 <a href="https://github.com/a327ex/windfield" target="_blank" rel="noopener noreferrer">a327ex/windfield</a> – Physics module for LÖVE</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>box2d</code>, <code>game-development</code>, <code>love2d</code>, <code>lua</code>, <code>physics</code> <br>
+<strong>Watchers</strong>: 13 <strong>Forks</strong>: 51 <strong>Stars</strong>: 410 <strong>Issues</strong>: 11 <br>
+<strong>Last commit</strong>: 2020-04-14 (1345 days ago) <br>
+<strong>Created at</strong>: 2015-09-08 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 2 <a href="https://github.com/LukeZGD/DDLC-LOVE" target="_blank" rel="noopener noreferrer">LukeZGD/DDLC-LOVE</a> – An unofficial Doki Doki Literature Club port to Lua for the PS Vita and other game consoles</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 29 <strong>Forks</strong>: 36 <strong>Stars</strong>: 257 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2021-09-16 (825 days ago) <br>
+<strong>Created at</strong>: 2018-04-17 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 2 <a href="https://github.com/a327ex/STALKER-X" target="_blank" rel="noopener noreferrer">a327ex/STALKER-X</a> – Camera module for LÖVE</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>camera</code>, <code>game-development</code>, <code>love2d</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 16 <strong>Forks</strong>: 22 <strong>Stars</strong>: 256 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2019-09-01 (1571 days ago) <br>
+<strong>Created at</strong>: 2017-11-17 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -3 <a href="https://github.com/a327ex/boipushy" target="_blank" rel="noopener noreferrer">a327ex/boipushy</a> – Input module for LÖVE</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>game-development</code>, <code>gamepad</code>, <code>input</code>, <code>love2d</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 25 <strong>Stars</strong>: 150 <strong>Issues</strong>: 12 <br>
+<strong>Last commit</strong>: 2020-06-29 (1269 days ago) <br>
+<strong>Created at</strong>: 2015-01-15 <br>
+<strong>License</strong>: none</p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="gta-v">GTA V<a href="#gta-v" class="hash-link" aria-label="Direct link to GTA V" title="Direct link to GTA V">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 56 <a href="https://github.com/xhcherry/GTA5-Stand-LuaAIO" target="_blank" rel="noopener noreferrer">xhcherry/GTA5-Stand-LuaAIO</a> – GTA5 Mod Stand Lua All in One；含综合、任务、crash、模组、娱乐等多种standlua于一体的存储库</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 4 <strong>Forks</strong>: 145 <strong>Stars</strong>: 131 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2023-12-20 (0 days ago) <br>
+<strong>Created at</strong>: 2023-01-25 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 53 <a href="https://github.com/AmirrezaJaberi/FIREAC" target="_blank" rel="noopener noreferrer">AmirrezaJaberi/FIREAC</a> – ✅ FiveM Strongest Anticheat</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>anti-cheat</code>, <code>cfx-resource</code>, <code>fivem</code>, <code>fivem-lua</code>, <code>fivem-script</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 47 <strong>Stars</strong>: 122 <strong>Issues</strong>: 14 <br>
+<strong>Last commit</strong>: 2023-12-20 (0 days ago) <br>
+<strong>Created at</strong>: 2022-01-20 <br>
+<strong>License</strong>: GNU Affero General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 49 <a href="https://github.com/mkafrin/PolyZone" target="_blank" rel="noopener noreferrer">mkafrin/PolyZone</a> – PolyZone is a FiveM mod to define zones of different shapes and test whether a point is inside or outside of the zone</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>fivem</code>, <code>fivem-mod</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 189 <strong>Stars</strong>: 175 <strong>Issues</strong>: 8 <br>
+<strong>Last commit</strong>: 2023-12-04 (17 days ago) <br>
+<strong>Created at</strong>: 2019-06-23 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 43 <a href="https://github.com/alp1x/um-idcard" target="_blank" rel="noopener noreferrer">alp1x/um-idcard</a> – 🪪this is a FiveM script that generates identity cards with mugshots and metadata, specifically designed to be compatible with QBCore,ESX,QBox.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>esx</code>, <code>esx-legacy</code>, <code>fivem</code>, <code>lua</code>, <code>qb</code>, <code>qbcore</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 75 <strong>Stars</strong>: 142 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2023-11-16 (34 days ago) <br>
+<strong>Created at</strong>: 2021-08-13 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 16 <a href="https://github.com/ThymonA/menuv" target="_blank" rel="noopener noreferrer">ThymonA/menuv</a> – FiveM menu library for creating menu&#x27;s with NUI</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>fivem</code>, <code>fivem-script</code>, <code>library</code>, <code>lua</code>, <code>menu</code>, <code>nui</code>, <code>standalone</code>, <code>standalone-library</code> <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 135 <strong>Stars</strong>: 99 <strong>Issues</strong>: 21 <br>
+<strong>Last commit</strong>: 2022-12-20 (365 days ago) <br>
+<strong>Created at</strong>: 2020-11-19 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -3 <a href="https://github.com/pablo-1610/ncs_core" target="_blank" rel="noopener noreferrer">pablo-1610/ncs_core</a> – A powerful, optimized but above all open-source FiveM RolePlay core under developement by the community, for the community.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>fivem</code>, <code>fivem-core</code>, <code>fivem-roleplay</code>, <code>fivem-script</code>, <code>lua</code>, <code>nextcitizens</code>, <code>nsc</code>, <code>roleplay</code> <br>
+<strong>Watchers</strong>: 6 <strong>Forks</strong>: 39 <strong>Stars</strong>: 104 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2022-11-14 (401 days ago) <br>
+<strong>Created at</strong>: 2022-05-25 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -3 <a href="https://github.com/PabloCodingg/ncs_core" target="_blank" rel="noopener noreferrer">PabloCodingg/ncs_core</a> – A powerful, optimized but above all open-source FiveM RolePlay core under developement by the community, for the community.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>fivem</code>, <code>fivem-core</code>, <code>fivem-roleplay</code>, <code>fivem-script</code>, <code>lua</code>, <code>nextcitizens</code>, <code>nsc</code>, <code>roleplay</code> <br>
+<strong>Watchers</strong>: 6 <strong>Forks</strong>: 39 <strong>Stars</strong>: 104 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2022-11-14 (401 days ago) <br>
+<strong>Created at</strong>: 2022-05-25 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -3 <a href="https://github.com/NextCitizens/ncs_core" target="_blank" rel="noopener noreferrer">NextCitizens/ncs_core</a> – A powerful, optimized but above all open-source FiveM RolePlay core under developement by the community, for the community.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>fivem</code>, <code>fivem-core</code>, <code>fivem-roleplay</code>, <code>fivem-script</code>, <code>lua</code>, <code>nextcitizens</code>, <code>nsc</code>, <code>roleplay</code> <br>
+<strong>Watchers</strong>: 6 <strong>Forks</strong>: 39 <strong>Stars</strong>: 104 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2022-11-14 (401 days ago) <br>
+<strong>Created at</strong>: 2022-05-25 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -3 <a href="https://github.com/xchopin/FiveM-RP-Boilerplate" target="_blank" rel="noopener noreferrer">xchopin/FiveM-RP-Boilerplate</a> – 🔫 Boilerplate for FiveM Roleplay servers. Save time and focus on your real project.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>boilerplate</code>, <code>fivem</code>, <code>fivem-roleplay-servers</code>, <code>grand-theft-auto</code>, <code>gta</code>, <code>kit</code>, <code>lua</code>, <code>starter</code> <br>
+<strong>Watchers</strong>: 19 <strong>Forks</strong>: 123 <strong>Stars</strong>: 128 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2019-08-31 (1572 days ago) <br>
+<strong>Created at</strong>: 2017-06-06 <br>
+<strong>License</strong>: none</p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="roblox">Roblox<a href="#roblox" class="hash-link" aria-label="Direct link to Roblox" title="Direct link to Roblox">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 68 <a href="https://github.com/rojo-rbx/rojo" target="_blank" rel="noopener noreferrer">rojo-rbx/rojo</a> – Rojo enables Roblox developers to use professional-grade software engineering tools</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>roblox</code>, <code>roblox-studio</code>, <code>sync</code> <br>
+<strong>Watchers</strong>: 28 <strong>Forks</strong>: 162 <strong>Stars</strong>: 809 <strong>Issues</strong>: 118 <br>
+<strong>Last commit</strong>: 2023-12-04 (16 days ago) <br>
+<strong>Created at</strong>: 2017-11-30 <br>
+<strong>License</strong>: Mozilla Public License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 58 <a href="https://github.com/evaera/Cmdr" target="_blank" rel="noopener noreferrer">evaera/Cmdr</a> – Extensible command console for Roblox developers</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>roblox</code> <br>
+<strong>Watchers</strong>: 13 <strong>Forks</strong>: 97 <strong>Stars</strong>: 325 <strong>Issues</strong>: 25 <br>
+<strong>Last commit</strong>: 2023-12-16 (5 days ago) <br>
+<strong>Created at</strong>: 2018-05-29 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 58 <a href="https://github.com/Quenty/NevermoreEngine" target="_blank" rel="noopener noreferrer">Quenty/NevermoreEngine</a> – ModuleScript loader with reusable and easy unified server-client modules for faster game development on Roblox</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>game-development</code>, <code>lua</code>, <code>nevermore</code>, <code>rbxlua</code>, <code>roblox</code> <br>
+<strong>Watchers</strong>: 22 <strong>Forks</strong>: 121 <strong>Stars</strong>: 350 <strong>Issues</strong>: 51 <br>
+<strong>Last commit</strong>: 2023-12-14 (6 days ago) <br>
+<strong>Created at</strong>: 2013-09-17 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 56 <a href="https://github.com/Roblox/rodux" target="_blank" rel="noopener noreferrer">Roblox/rodux</a> – A state management library for Roblox Lua inspired by Redux</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>redux</code>, <code>roblox</code>, <code>state</code> <br>
+<strong>Watchers</strong>: 25 <strong>Forks</strong>: 61 <strong>Stars</strong>: 229 <strong>Issues</strong>: 14 <br>
+<strong>Last commit</strong>: 2023-12-19 (1 days ago) <br>
+<strong>Created at</strong>: 2017-10-11 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 47 <a href="https://github.com/NightrainsRbx/RobloxLsp" target="_blank" rel="noopener noreferrer">NightrainsRbx/RobloxLsp</a> – Roblox Luau Language Server based on Lua by sumneko.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>intellisense</code>, <code>lua</code>, <code>roblox</code> <br>
+<strong>Watchers</strong>: 3 <strong>Forks</strong>: 51 <strong>Stars</strong>: 194 <strong>Issues</strong>: 56 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2020-08-09 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 44 <a href="https://github.com/Roblox/roact" target="_blank" rel="noopener noreferrer">Roblox/roact</a> – A view management library for Roblox Lua similar to React</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>react</code>, <code>roblox</code>, <code>ui</code> <br>
+<strong>Watchers</strong>: 28 <strong>Forks</strong>: 140 <strong>Stars</strong>: 546 <strong>Issues</strong>: 70 <br>
+<strong>Last commit</strong>: 2023-12-13 (8 days ago) <br>
+<strong>Created at</strong>: 2017-11-03 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟠 36 <a href="https://github.com/evaera/roblox-lua-promise" target="_blank" rel="noopener noreferrer">evaera/roblox-lua-promise</a> – Promise implementation for Roblox</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>roblox</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 65 <strong>Stars</strong>: 256 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2023-10-16 (66 days ago) <br>
+<strong>Created at</strong>: 2019-09-10 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 34 <a href="https://github.com/Roblox/testez" target="_blank" rel="noopener noreferrer">Roblox/testez</a> – BDD-style test and assertion library for Roblox Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 20 <strong>Forks</strong>: 59 <strong>Stars</strong>: 167 <strong>Issues</strong>: 46 <br>
+<strong>Last commit</strong>: 2023-10-23 (58 days ago) <br>
+<strong>Created at</strong>: 2017-10-31 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟠 25 <a href="https://github.com/Roblox/roact-rodux" target="_blank" rel="noopener noreferrer">Roblox/roact-rodux</a> – A connector between Roact and Rodux, similar to react-redux</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>roblox</code> <br>
+<strong>Watchers</strong>: 15 <strong>Forks</strong>: 37 <strong>Stars</strong>: 79 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2023-10-11 (71 days ago) <br>
+<strong>Created at</strong>: 2017-11-03 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 22 <a href="https://github.com/Kampfkarren/Roblox" target="_blank" rel="noopener noreferrer">Kampfkarren/Roblox</a> – Scripts and stuff I wrote for Roblox. Documentation is little to none as these are just stuff I took from my game that I thought I could share.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>roblox</code> <br>
+<strong>Watchers</strong>: 23 <strong>Forks</strong>: 71 <strong>Stars</strong>: 250 <strong>Issues</strong>: 42 <br>
+<strong>Last commit</strong>: 2023-06-27 (176 days ago) <br>
+<strong>Created at</strong>: 2017-10-09 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 19 <a href="https://github.com/osyrisrblx/t" target="_blank" rel="noopener noreferrer">osyrisrblx/t</a> – A Runtime Typechecker for Roblox</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>roblox</code> <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 39 <strong>Stars</strong>: 171 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2023-04-03 (262 days ago) <br>
+<strong>Created at</strong>: 2018-06-26 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 -4 <a href="https://github.com/PY44N/Lua-Obfuscator" target="_blank" rel="noopener noreferrer">PY44N/Lua-Obfuscator</a> – A Lua Obfuscator made for Roblox, but should work on most Lua applications </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>lua-applications</code>, <code>lua-obfuscator</code>, <code>obfuscation</code>, <code>obfuscator</code>, <code>roblox</code>, <code>script</code> <br>
+<strong>Watchers</strong>: 4 <strong>Forks</strong>: 123 <strong>Stars</strong>: 104 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2023-07-07 (166 days ago) <br>
+<strong>Created at</strong>: 2020-09-01 <br>
+<strong>License</strong>: none</p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="garrys-mod">Garry&#x27;s Mod<a href="#garrys-mod" class="hash-link" aria-label="Direct link to Garry&#x27;s Mod" title="Direct link to Garry&#x27;s Mod">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 58 <a href="https://github.com/JonnyBro/beatrun" target="_blank" rel="noopener noreferrer">JonnyBro/beatrun</a> – Fork of infamous parkour addon for Garry&#x27;s Mod</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>beatrun</code>, <code>garrys-mod</code>, <code>garrysmod</code>, <code>garrysmod-addon</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 17 <strong>Forks</strong>: 23 <strong>Stars</strong>: 169 <strong>Issues</strong>: 7 <br>
+<strong>Last commit</strong>: 2023-12-19 (1 days ago) <br>
+<strong>Created at</strong>: 2023-05-20 <br>
+<strong>License</strong>: The Unlicense</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 54 <a href="https://github.com/CapsAdmin/pac3" target="_blank" rel="noopener noreferrer">CapsAdmin/pac3</a> – advanced avatar customization for garrysmod</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>character-creation</code>, <code>garrys-mod</code>, <code>gmod</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 34 <strong>Forks</strong>: 93 <strong>Stars</strong>: 194 <strong>Issues</strong>: 129 <br>
+<strong>Last commit</strong>: 2023-12-21 (0 days ago) <br>
+<strong>Created at</strong>: 2013-05-22 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 54 <a href="https://github.com/thegrb93/StarfallEx" target="_blank" rel="noopener noreferrer">thegrb93/StarfallEx</a> – Starfall, but with active development and more features. Write Garry&#x27;s mod chips similar to E2, but in lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 16 <strong>Forks</strong>: 105 <strong>Stars</strong>: 182 <strong>Issues</strong>: 26 <br>
+<strong>Last commit</strong>: 2023-12-20 (0 days ago) <br>
+<strong>Created at</strong>: 2015-10-22 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 49 <a href="https://github.com/robotboy655/gmod-lua-menu" target="_blank" rel="noopener noreferrer">robotboy655/gmod-lua-menu</a> – A Lua powered ( No HTML ) main menu for Garry&#x27;s Mod.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 37 <strong>Stars</strong>: 134 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2023-12-11 (9 days ago) <br>
+<strong>Created at</strong>: 2014-08-02 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 43 <a href="https://github.com/TeamUlysses/ulx" target="_blank" rel="noopener noreferrer">TeamUlysses/ulx</a> – ULX: A powerful administration addon for Garry&#x27;s Mod</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>admin</code>, <code>administration</code>, <code>garrys-mod</code>, <code>garrysmod</code>, <code>gmod</code>, <code>lua</code>, <code>steam</code>, <code>steam-games</code>, <code>ulib</code>, <code>ulx</code>, <code>ulysses</code>, <code>workshop</code> <br>
+<strong>Watchers</strong>: 23 <strong>Forks</strong>: 68 <strong>Stars</strong>: 150 <strong>Issues</strong>: 23 <br>
+<strong>Last commit</strong>: 2023-11-21 (29 days ago) <br>
+<strong>Created at</strong>: 2015-11-08 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 39 <a href="https://github.com/TeamUlysses/ulib" target="_blank" rel="noopener noreferrer">TeamUlysses/ulib</a> – ULib: A Lua library for more rapid development on Garry&#x27;s Mod servers</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>garrys-mod</code>, <code>garrysmod</code>, <code>gmod</code>, <code>lua</code>, <code>steam</code>, <code>steam-games</code>, <code>ulib</code>, <code>ulx</code>, <code>ulysses</code>, <code>workshop</code> <br>
+<strong>Watchers</strong>: 21 <strong>Forks</strong>: 47 <strong>Stars</strong>: 96 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2023-11-19 (32 days ago) <br>
+<strong>Created at</strong>: 2015-11-08 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/pixeltailgames/cinema" target="_blank" rel="noopener noreferrer">pixeltailgames/cinema</a> – <!-- -->🎥<!-- --> Gamemode for Garry&#x27;s Mod featuring multiplayer video streaming</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cinema</code>, <code>gamemode</code>, <code>garrysmod</code>, <code>gmod</code>, <code>html</code>, <code>lua</code>, <code>movies</code>, <code>streaming</code> <br>
+<strong>Watchers</strong>: 22 <strong>Forks</strong>: 66 <strong>Stars</strong>: 87 <strong>Issues</strong>: 31 <br>
+<strong>Last commit</strong>: 2020-11-27 (1118 days ago) <br>
+<strong>Created at</strong>: 2012-12-16 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 9 <a href="https://github.com/unkperson/player-model-changer" target="_blank" rel="noopener noreferrer">unkperson/player-model-changer</a> – 💉: gamesense lua script to change local player model</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 0 <strong>Stars</strong>: 18 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2022-08-24 (483 days ago) <br>
+<strong>Created at</strong>: 2022-08-24 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -6 <a href="https://github.com/handsomematt/3d2d-vgui" target="_blank" rel="noopener noreferrer">handsomematt/3d2d-vgui</a> – <!-- -->👀<!-- --> Render and control 2D VGUI in 3D world space for Garry&#x27;s Mod</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>3d2d</code>, <code>gmod</code>, <code>lua</code>, <code>vgui</code> <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 24 <strong>Stars</strong>: 83 <strong>Issues</strong>: 10 <br>
+<strong>Last commit</strong>: 2019-10-23 (1519 days ago) <br>
+<strong>Created at</strong>: 2013-12-17 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="world-of-warcraft">World Of Warcraft<a href="#world-of-warcraft" class="hash-link" aria-label="Direct link to World Of Warcraft" title="Direct link to World Of Warcraft">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 78 <a href="https://github.com/WeakAuras/WeakAuras2" target="_blank" rel="noopener noreferrer">WeakAuras/WeakAuras2</a> – World of Warcraft addon that provides a powerful framework to display customizable graphics on your screen.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>addon</code>, <code>custom-textures</code>, <code>discord</code>, <code>extension</code>, <code>flexible-framework</code>, <code>framework</code>, <code>lua</code>, <code>scripting</code>, <code>trigger</code>, <code>warcraft-addon</code>, <code>weakauras</code>, <code>world-of-warcraft</code>, <code>wow-addon</code> <br>
+<strong>Watchers</strong>: 42 <strong>Forks</strong>: 282 <strong>Stars</strong>: 1116 <strong>Issues</strong>: 69 <br>
+<strong>Last commit</strong>: 2023-12-20 (0 days ago) <br>
+<strong>Created at</strong>: 2014-10-10 <br>
+<strong>License</strong>: GNU General Public License v2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 59 <a href="https://github.com/shagu/pfUI" target="_blank" rel="noopener noreferrer">shagu/pfUI</a> – A User Interface Replacement for World of Warcraft: Vanilla &amp; TBC</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>addon</code>, <code>interface</code>, <code>lua</code>, <code>pfui</code>, <code>pfui-tbc</code>, <code>tbc</code>, <code>the-burning-crusade</code>, <code>ui</code>, <code>user-interface</code>, <code>vanilla</code>, <code>world-of-warcraft</code> <br>
+<strong>Watchers</strong>: 25 <strong>Forks</strong>: 111 <strong>Stars</strong>: 317 <strong>Issues</strong>: 94 <br>
+<strong>Last commit</strong>: 2023-12-19 (1 days ago) <br>
+<strong>Created at</strong>: 2016-05-02 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 53 <a href="https://github.com/shagu/pfQuest" target="_blank" rel="noopener noreferrer">shagu/pfQuest</a> – A Questhelper and Database Addon for World of Warcraft: Vanilla &amp; TBC</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>addon</code>, <code>database</code>, <code>lua</code>, <code>pfquest</code>, <code>pfquest-tbc</code>, <code>professions</code>, <code>quest-helper</code>, <code>questlog</code>, <code>tbc</code>, <code>vanilla</code>, <code>world-of-warcraft</code> <br>
+<strong>Watchers</strong>: 25 <strong>Forks</strong>: 46 <strong>Stars</strong>: 164 <strong>Issues</strong>: 61 <br>
+<strong>Last commit</strong>: 2023-12-20 (0 days ago) <br>
+<strong>Created at</strong>: 2017-10-08 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 51 <a href="https://github.com/EsreverWoW/ShestakUI_Classic" target="_blank" rel="noopener noreferrer">EsreverWoW/ShestakUI_Classic</a> – ShestakUI for Wrath Classic (3.4.3), Burning Crusade Classic (2.5.4), and WoW Classic (1.15.0)</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>1-15-0</code>, <code>15000</code>, <code>2-5-4</code>, <code>20504</code>, <code>3-4-3</code>, <code>30403</code>, <code>addon</code>, <code>classic</code>, <code>interface</code>, <code>lua</code>, <code>tbc</code>, <code>ui</code>, <code>user-interface</code>, <code>userinterface</code>, <code>world-of-warcraft</code>, <code>worldofwarcraft</code>, <code>wotlk</code>, <code>wow</code>, <code>wrath</code> <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 46 <strong>Stars</strong>: 125 <strong>Issues</strong>: 8 <br>
+<strong>Last commit</strong>: 2023-12-19 (1 days ago) <br>
+<strong>Created at</strong>: 2019-05-21 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 51 <a href="https://github.com/seblindfors/ConsolePort" target="_blank" rel="noopener noreferrer">seblindfors/ConsolePort</a> – ConsolePort - Game Controller Addon for World of Warcraft</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>addon</code>, <code>game-controller</code>, <code>lua</code>, <code>warcraft</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 37 <strong>Stars</strong>: 138 <strong>Issues</strong>: 17 <br>
+<strong>Last commit</strong>: 2023-12-16 (4 days ago) <br>
+<strong>Created at</strong>: 2015-02-06 <br>
+<strong>License</strong>: Artistic License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 47 <a href="https://github.com/AdiAddons/AdiBags" target="_blank" rel="noopener noreferrer">AdiAddons/AdiBags</a> – WoW Addon — Adirelle&#x27;s bag addon.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>addon</code>, <code>bags</code>, <code>bags-inventory</code>, <code>inventory</code>, <code>lua</code>, <code>world-of-warcraft</code> <br>
+<strong>Watchers</strong>: 14 <strong>Forks</strong>: 107 <strong>Stars</strong>: 148 <strong>Issues</strong>: 12 <br>
+<strong>Last commit</strong>: 2023-12-04 (16 days ago) <br>
+<strong>Created at</strong>: 2010-04-29 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 45 <a href="https://github.com/RealUI/RealUI" target="_blank" rel="noopener noreferrer">RealUI/RealUI</a> – A minimalistic UI for World of Warcraft designed to be functional, yet also efficient and elegant.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>world-of-warcraft</code>, <code>world-of-warcraft-addon</code>, <code>wow-addon</code> <br>
+<strong>Watchers</strong>: 20 <strong>Forks</strong>: 26 <strong>Stars</strong>: 77 <strong>Issues</strong>: 13 <br>
+<strong>Last commit</strong>: 2023-12-11 (10 days ago) <br>
+<strong>Created at</strong>: 2013-09-09 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 45 <a href="https://github.com/Ketho/BlizzardInterfaceResources" target="_blank" rel="noopener noreferrer">Ketho/BlizzardInterfaceResources</a> – Development resources from World of Warcraft</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>world-of-warcraft</code> <br>
+<strong>Watchers</strong>: 18 <strong>Forks</strong>: 18 <strong>Stars</strong>: 151 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2023-11-25 (25 days ago) <br>
+<strong>Created at</strong>: 2019-05-07 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 44 <a href="https://github.com/wardz/ClassicCastbars" target="_blank" rel="noopener noreferrer">wardz/ClassicCastbars</a> – [WoW] Customizable castbars for Classic, TBC, Wrath and Retail.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>addon</code>, <code>classic</code>, <code>combat</code>, <code>leveling</code>, <code>lua</code>, <code>pvp</code>, <code>tbc</code>, <code>the-burning-crusade</code>, <code>vanilla</code>, <code>world-of-warcraft</code>, <code>wotlk</code>, <code>wow</code>, <code>wow-addon</code>, <code>wow-classic</code>, <code>wow-tbc</code>, <code>wow-wotlk</code>, <code>wow-wrath</code>, <code>wrath-of-the-lich-king</code> <br>
+<strong>Watchers</strong>: 3 <strong>Forks</strong>: 5 <strong>Stars</strong>: 62 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2023-12-08 (12 days ago) <br>
+<strong>Created at</strong>: 2019-05-19 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 41 <a href="https://github.com/oUF-wow/oUF" target="_blank" rel="noopener noreferrer">oUF-wow/oUF</a> – WoW AddOn - Unit frame framework.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>framework</code>, <code>lua</code>, <code>ouf</code>, <code>warcraft-addon</code>, <code>wow-addon</code> <br>
+<strong>Watchers</strong>: 32 <strong>Forks</strong>: 60 <strong>Stars</strong>: 210 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2023-11-09 (41 days ago) <br>
+<strong>Created at</strong>: 2009-05-20 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 37 <a href="https://github.com/Ellypse/IntelliJ-IDEA-Lua-IDE-WoW-API" target="_blank" rel="noopener noreferrer">Ellypse/IntelliJ-IDEA-Lua-IDE-WoW-API</a> – WoW Lua API to use with the Lua IDE plugin for IntelliJ IDEA</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>intellij</code>, <code>lua</code>, <code>world-of-warcraft</code> <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 10 <strong>Stars</strong>: 81 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2023-11-14 (36 days ago) <br>
+<strong>Created at</strong>: 2017-03-09 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 26 <a href="https://github.com/ElvUI-WotLK/ElvUI" target="_blank" rel="noopener noreferrer">ElvUI-WotLK/ElvUI</a> – ElvUI for World of Warcraft - Wrath of the Lich King (3.3.5a)</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>30300</code>, <code>addon</code>, <code>backport</code>, <code>elvui</code>, <code>elvui-wotlk</code>, <code>elvui-wrath</code>, <code>interface</code>, <code>lua</code>, <code>user-interface</code>, <code>world-of-warcraft</code>, <code>wotlk</code>, <code>wrath-of-the-lich-king</code> <br>
+<strong>Watchers</strong>: 40 <strong>Forks</strong>: 139 <strong>Stars</strong>: 389 <strong>Issues</strong>: 91 <br>
+<strong>Last commit</strong>: 2023-06-26 (177 days ago) <br>
+<strong>Created at</strong>: 2014-06-07 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 21 <a href="https://github.com/Aviana/LunaUnitFrames" target="_blank" rel="noopener noreferrer">Aviana/LunaUnitFrames</a> – Unit Frames for WoW Classic</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>classic</code>, <code>lua</code>, <code>unit-frames</code>, <code>vanilla</code>, <code>world-of-warcraft</code>, <code>world-of-warcraft-addon</code>, <code>world-of-warcraft-classic</code> <br>
+<strong>Watchers</strong>: 26 <strong>Forks</strong>: 101 <strong>Stars</strong>: 244 <strong>Issues</strong>: 43 <br>
+<strong>Last commit</strong>: 2023-08-30 (112 days ago) <br>
+<strong>Created at</strong>: 2013-12-18 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 16 <a href="https://github.com/DengSir/tdBattlePetScript" target="_blank" rel="noopener noreferrer">DengSir/tdBattlePetScript</a> – Battle pet combat script for wow.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>addon</code>, <code>battle-pet</code>, <code>lua</code>, <code>script</code>, <code>world-of-warcraft</code> <br>
+<strong>Watchers</strong>: 14 <strong>Forks</strong>: 26 <strong>Stars</strong>: 118 <strong>Issues</strong>: 21 <br>
+<strong>Last commit</strong>: 2022-11-13 (403 days ago) <br>
+<strong>Created at</strong>: 2016-10-13 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/Aviana/YaHT" target="_blank" rel="noopener noreferrer">Aviana/YaHT</a> – Yet another Hunter Timer for WoW Classic</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>addon</code>, <code>hunter</code>, <code>lua</code>, <code>vanilla</code>, <code>world-of-warcraft</code> <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 15 <strong>Stars</strong>: 60 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2021-06-19 (914 days ago) <br>
+<strong>Created at</strong>: 2017-02-19 <br>
+<strong>License</strong>: The Unlicense</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -5 <a href="https://github.com/ElvUI-TBC/ElvUI" target="_blank" rel="noopener noreferrer">ElvUI-TBC/ElvUI</a> – ElvUI for World of Warcraft - The Burning Crusade (2.4.3) </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>20400</code>, <code>addon</code>, <code>backport</code>, <code>elvui</code>, <code>elvui-tbc</code>, <code>elvui-the-burning-crusade</code>, <code>interface</code>, <code>lua</code>, <code>tbc</code>, <code>the-burning-crusade</code>, <code>user-interface</code>, <code>world-of-warcraft</code> <br>
+<strong>Watchers</strong>: 14 <strong>Forks</strong>: 22 <strong>Stars</strong>: 100 <strong>Issues</strong>: 42 <br>
+<strong>Last commit</strong>: 2020-08-24 (1213 days ago) <br>
+<strong>Created at</strong>: 2017-03-20 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -7 <a href="https://github.com/ElvUI-Vanilla/ElvUI" target="_blank" rel="noopener noreferrer">ElvUI-Vanilla/ElvUI</a> – ElvUI for World of Warcraft - Vanilla (1.12.1) </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>11200</code>, <code>addon</code>, <code>backport</code>, <code>elvui</code>, <code>elvui-vanilla</code>, <code>interface</code>, <code>lua</code>, <code>user-interface</code>, <code>vanilla</code>, <code>world-of-warcraft</code> <br>
+<strong>Watchers</strong>: 13 <strong>Forks</strong>: 19 <strong>Stars</strong>: 68 <strong>Issues</strong>: 21 <br>
+<strong>Last commit</strong>: 2019-09-07 (1565 days ago) <br>
+<strong>Created at</strong>: 2017-12-14 <br>
+<strong>License</strong>: none</p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="other">Other<a href="#other" class="hash-link" aria-label="Direct link to Other" title="Direct link to Other">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 60 <a href="https://github.com/NobleRobot/NobleEngine" target="_blank" rel="noopener noreferrer">NobleRobot/NobleEngine</a> – A li&#x27;l game engine for Playdate.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>2d-game-engine</code>, <code>game-development</code>, <code>game-engine</code>, <code>game-engine-2d</code>, <code>lua</code>, <code>playdate</code>, <code>playdate-console</code>, <code>playdate-sdk</code> <br>
+<strong>Watchers</strong>: 13 <strong>Forks</strong>: 23 <strong>Stars</strong>: 334 <strong>Issues</strong>: 16 <br>
+<strong>Last commit</strong>: 2023-12-13 (7 days ago) <br>
+<strong>Created at</strong>: 2021-03-17 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 58 <a href="https://github.com/yuanfengyun/qipai_algorithm" target="_blank" rel="noopener noreferrer">yuanfengyun/qipai_algorithm</a> – 棋牌的胡牌算法，包括麻将、跑胡子、扑克。实现 lua 、c++ 、c# 、golang 、js 、java 、python 版本。( Mahjong  algorithm )</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>algorithm</code>, <code>doudizhu</code>, <code>lua</code>, <code>majhong</code>, <code>paohuzi</code> <br>
+<strong>Watchers</strong>: 131 <strong>Forks</strong>: 861 <strong>Stars</strong>: 1905 <strong>Issues</strong>: 18 <br>
+<strong>Last commit</strong>: 2023-01-12 (343 days ago) <br>
+<strong>Created at</strong>: 2017-01-03 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 58 <a href="https://github.com/yuanfengyun/q_algorithm" target="_blank" rel="noopener noreferrer">yuanfengyun/q_algorithm</a> – 棋牌的胡牌算法，包括麻将、跑胡子、扑克。实现 lua 、c++ 、c# 、golang 、js 、java 、python 版本。( Mahjong  algorithm )</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>algorithm</code>, <code>doudizhu</code>, <code>lua</code>, <code>majhong</code>, <code>paohuzi</code> <br>
+<strong>Watchers</strong>: 131 <strong>Forks</strong>: 861 <strong>Stars</strong>: 1905 <strong>Issues</strong>: 18 <br>
+<strong>Last commit</strong>: 2023-01-12 (343 days ago) <br>
+<strong>Created at</strong>: 2017-01-03 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 58 <a href="https://github.com/adamqqqplay/dota2ai" target="_blank" rel="noopener noreferrer">adamqqqplay/dota2ai</a> – Ranked Matchmaking AI: An improved Dota2 AI based on Valve&#x27;s default AI. Has more than 3 million subscribers on Steam.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>ai</code>, <code>dota2</code>, <code>game</code>, <code>games</code>, <code>lua</code>, <code>steam</code> <br>
+<strong>Watchers</strong>: 24 <strong>Forks</strong>: 79 <strong>Stars</strong>: 295 <strong>Issues</strong>: 21 <br>
+<strong>Last commit</strong>: 2023-12-18 (2 days ago) <br>
+<strong>Created at</strong>: 2017-06-15 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 58 <a href="https://github.com/wube/factorio-data" target="_blank" rel="noopener noreferrer">wube/factorio-data</a> – Tracks changes of the lua prototype definitions in factorio inbetween releases.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 74 <strong>Forks</strong>: 29 <strong>Stars</strong>: 415 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2023-12-04 (16 days ago) <br>
+<strong>Created at</strong>: 2018-04-24 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 53 <a href="https://github.com/liuhaopen/UnityMMO" target="_blank" rel="noopener noreferrer">liuhaopen/UnityMMO</a> – an unity mmo demo, base on ecs(game play), xlua(ui)</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>ecs</code>, <code>entities</code>, <code>gameplay</code>, <code>lua</code>, <code>lua-ecs</code>, <code>mmo</code>, <code>unity</code>, <code>xlua</code> <br>
+<strong>Watchers</strong>: 84 <strong>Forks</strong>: 409 <strong>Stars</strong>: 1481 <strong>Issues</strong>: 15 <br>
+<strong>Last commit</strong>: 2021-07-01 (902 days ago) <br>
+<strong>Created at</strong>: 2018-07-11 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 49 <a href="https://github.com/CelestialCartographers/Loenn" target="_blank" rel="noopener noreferrer">CelestialCartographers/Loenn</a> – A Visual Map Maker and Level Editor for the game Celeste but better than the other one</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>celeste</code>, <code>celestegame</code>, <code>love</code>, <code>love2d</code>, <code>lua</code>, <code>map</code>, <code>mapmaker</code>, <code>mapmaking</code>, <code>maps</code>, <code>selene</code>, <code>visual</code> <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 17 <strong>Stars</strong>: 126 <strong>Issues</strong>: 25 <br>
+<strong>Last commit</strong>: 2023-12-12 (8 days ago) <br>
+<strong>Created at</strong>: 2019-04-26 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 45 <a href="https://github.com/Elfansoer/dota-2-lua-abilities" target="_blank" rel="noopener noreferrer">Elfansoer/dota-2-lua-abilities</a> – A repository for creating Dota 2 Lua abilities.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 70 <strong>Stars</strong>: 178 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2018-01-22 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 40 <a href="https://github.com/Gigoteur/UnicornConsole" target="_blank" rel="noopener noreferrer">Gigoteur/UnicornConsole</a> – Unicorn Console: create quick fantasy game in Rust/Python/Lua/Rhai/Wasm !</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>fantasy-console</code>, <code>game-engine</code>, <code>lua</code>, <code>python</code>, <code>rhai</code>, <code>rust</code>, <code>wasm</code> <br>
+<strong>Watchers</strong>: 29 <strong>Forks</strong>: 48 <strong>Stars</strong>: 905 <strong>Issues</strong>: 12 <br>
+<strong>Last commit</strong>: 2023-02-21 (302 days ago) <br>
+<strong>Created at</strong>: 2016-11-17 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 34 <a href="https://github.com/Planimeter/grid-sdk" target="_blank" rel="noopener noreferrer">Planimeter/grid-sdk</a> – Planimeter Game Engine 2D - LÖVE-based game engine for Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>2d-game-engine</code>, <code>game-development</code>, <code>game-engine</code>, <code>gamedev</code>, <code>grid-sdk</code>, <code>love2d</code>, <code>lua</code>, <code>luajit</code> <br>
+<strong>Watchers</strong>: 36 <strong>Forks</strong>: 77 <strong>Stars</strong>: 709 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2022-10-03 (443 days ago) <br>
+<strong>Created at</strong>: 2014-10-18 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟠 32 <a href="https://github.com/zeta0134/LuaGB" target="_blank" rel="noopener noreferrer">zeta0134/LuaGB</a> – A gameboy emulator written in pure Lua. Work in progress.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 26 <strong>Forks</strong>: 33 <strong>Stars</strong>: 404 <strong>Issues</strong>: 26 <br>
+<strong>Last commit</strong>: 2023-09-22 (89 days ago) <br>
+<strong>Created at</strong>: 2015-12-02 <br>
+<strong>License</strong>: BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 31 <a href="https://github.com/Yonaba/Jumper" target="_blank" rel="noopener noreferrer">Yonaba/Jumper</a> – Fast, lightweight and easy-to-use pathfinding library for grid-based games</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>gamedev</code>, <code>lua</code>, <code>pathfinding</code>, <code>pathfinding-algorithms</code>, <code>pathfinding-library</code> <br>
+<strong>Watchers</strong>: 52 <strong>Forks</strong>: 126 <strong>Stars</strong>: 597 <strong>Issues</strong>: 35 <br>
+<strong>Last commit</strong>: 2022-10-21 (425 days ago) <br>
+<strong>Created at</strong>: 2012-10-10 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟠 29 <a href="https://github.com/sniper00/MoonDemo" target="_blank" rel="noopener noreferrer">sniper00/MoonDemo</a> – moon game server的一个使用示例，搭建简单的房间类游戏服务器框架</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cpp</code>, <code>game</code>, <code>game-server</code>, <code>lua</code>, <code>network</code>, <code>unity</code> <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 23 <strong>Stars</strong>: 116 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2023-10-14 (67 days ago) <br>
+<strong>Created at</strong>: 2018-06-09 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 28 <a href="https://github.com/Kamikaze94/WolfHUD" target="_blank" rel="noopener noreferrer">Kamikaze94/WolfHUD</a> – Payday 2 HUD</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>blt</code>, <code>game</code>, <code>hud</code>, <code>lua</code>, <code>mod</code>, <code>payday2</code>, <code>pd2</code> <br>
+<strong>Watchers</strong>: 37 <strong>Forks</strong>: 237 <strong>Stars</strong>: 458 <strong>Issues</strong>: 129 <br>
+<strong>Last commit</strong>: 2023-03-21 (274 days ago) <br>
+<strong>Created at</strong>: 2016-02-17 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 22 <a href="https://github.com/tickbh/tunm" target="_blank" rel="noopener noreferrer">tickbh/tunm</a> – game server for Rust + Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cross-platform</code>, <code>game</code>, <code>game-engine</code>, <code>game-server</code>, <code>rust</code>, <code>rust-lua</code>, <code>server</code> <br>
+<strong>Watchers</strong>: 34 <strong>Forks</strong>: 73 <strong>Stars</strong>: 261 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2023-06-06 (197 days ago) <br>
+<strong>Created at</strong>: 2016-03-31 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 20 <a href="https://github.com/CapsAdmin/goluwa" target="_blank" rel="noopener noreferrer">CapsAdmin/goluwa</a> – game engine and framework written in luajit</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>engine3d</code>, <code>ffi</code>, <code>ffi-wrapper</code>, <code>font</code>, <code>game-dev</code>, <code>game-development</code>, <code>game-engine</code>, <code>game-framework</code>, <code>garrysmod</code>, <code>gui</code>, <code>linux</code>, <code>love2d</code>, <code>lua</code>, <code>lua-library</code>, <code>lua-script</code>, <code>luajit</code>, <code>luajit-ffi</code>, <code>luajit-ffi-bindings</code>, <code>source-engine</code> <br>
+<strong>Watchers</strong>: 26 <strong>Forks</strong>: 18 <strong>Stars</strong>: 219 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2022-12-29 (356 days ago) <br>
+<strong>Created at</strong>: 2012-12-01 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 18 <a href="https://github.com/Afforess/Factorio-Stdlib" target="_blank" rel="noopener noreferrer">Afforess/Factorio-Stdlib</a> – Factorio Standard Library Project</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>factorio</code>, <code>factorio-stdlib</code>, <code>ldoc</code>, <code>lua</code>, <code>modders</code> <br>
+<strong>Watchers</strong>: 15 <strong>Forks</strong>: 44 <strong>Stars</strong>: 159 <strong>Issues</strong>: 21 <br>
+<strong>Last commit</strong>: 2022-11-27 (389 days ago) <br>
+<strong>Created at</strong>: 2016-04-06 <br>
+<strong>License</strong>: ISC License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/nidorx/ecs-lua" target="_blank" rel="noopener noreferrer">nidorx/ecs-lua</a> – ECS Lua is a fast and easy to use ECS (Entity Component System) engine for game development.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>luajit</code>, <code>roblox</code>, <code>robloxlua</code> <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 47 <strong>Stars</strong>: 116 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2021-10-22 (790 days ago) <br>
+<strong>Created at</strong>: 2020-10-21 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 16 <a href="https://github.com/SiENcE/astray" target="_blank" rel="noopener noreferrer">SiENcE/astray</a> – Astray is a lua based maze, room and dungeon generation library for dungeon crawlers and rougelike video games</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>dungeon-crawler</code>, <code>love2d</code>, <code>lua</code>, <code>maze</code>, <code>room</code>, <code>rougelike</code>, <code>video-game</code> <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 10 <strong>Stars</strong>: 131 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2016-12-12 (2564 days ago) <br>
+<strong>Created at</strong>: 2014-01-08 <br>
+<strong>License</strong>: zlib License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 16 <a href="https://github.com/Dragosha/slasher-prototype" target="_blank" rel="noopener noreferrer">Dragosha/slasher-prototype</a> – Defold. Lua. Game prototype. 2.5D perspective view. Levels loader, a hero controller, simple monsters logic.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>defold</code>, <code>defold-game</code>, <code>game-prototype</code>, <code>spine-animation</code> <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 12 <strong>Stars</strong>: 116 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2023-04-11 (253 days ago) <br>
+<strong>Created at</strong>: 2019-06-24 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/VolatilePulse/PoB-Item-Tester" target="_blank" rel="noopener noreferrer">VolatilePulse/PoB-Item-Tester</a> – AHK and Lua script to automate comparing PoE items from in game or trade sites against your current build with the power of PoB</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>dps-search</code>, <code>item-tester</code>, <code>pob</code> <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 8 <strong>Stars</strong>: 102 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2022-12-15 (370 days ago) <br>
+<strong>Created at</strong>: 2018-10-10 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/hiwoshixiaoyu/FruitSlot" target="_blank" rel="noopener noreferrer">hiwoshixiaoyu/FruitSlot</a> – 老虎机,水果机,游戏,cocos2d-lua,go网络版水果机</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 52 <strong>Stars</strong>: 103 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2018-03-22 (2100 days ago) <br>
+<strong>Created at</strong>: 2018-03-21 <br>
+<strong>License</strong>: GNU Lesser General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 14 <a href="https://github.com/mcclure/emu-coop" target="_blank" rel="noopener noreferrer">mcclure/emu-coop</a> – Lua scripts for turning 1-player games into 2-player games using inventory sharing.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 21 <strong>Stars</strong>: 72 <strong>Issues</strong>: 21 <br>
+<strong>Last commit</strong>: 2023-09-08 (103 days ago) <br>
+<strong>Created at</strong>: 2017-07-25 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/Eroica-cpp/dota2scripts" target="_blank" rel="noopener noreferrer">Eroica-cpp/dota2scripts</a> – Lua scripts for DotA2.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>dota2</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 50 <strong>Stars</strong>: 74 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2021-04-17 (977 days ago) <br>
+<strong>Created at</strong>: 2017-02-16 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -3 <a href="https://github.com/AzureeDev/payday-2-luajit" target="_blank" rel="noopener noreferrer">AzureeDev/payday-2-luajit</a> – Decompiled Lua of PAYDAY 2.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 19 <strong>Forks</strong>: 49 <strong>Stars</strong>: 123 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2021-10-28 (783 days ago) <br>
+<strong>Created at</strong>: 2018-10-26 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -3 <a href="https://github.com/mwSora/payday-2-luajit" target="_blank" rel="noopener noreferrer">mwSora/payday-2-luajit</a> – Decompiled Lua of PAYDAY 2.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 19 <strong>Forks</strong>: 49 <strong>Stars</strong>: 123 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2021-10-28 (783 days ago) <br>
+<strong>Created at</strong>: 2018-10-26 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -4 <a href="https://github.com/cocos-creator/creator-lua-deprecated" target="_blank" rel="noopener noreferrer">cocos-creator/creator-lua-deprecated</a> – Cocos Creator 的 Lua 支持</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 26 <strong>Forks</strong>: 27 <strong>Stars</strong>: 115 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2016-12-29 (2547 days ago) <br>
+<strong>Created at</strong>: 2016-05-23 <br>
+<strong>License</strong>: MIT License</p></div></div></details></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/applications-related"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">🧶 Applications-related</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/storages"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">📦 Storages</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#love2d" class="table-of-contents__link toc-highlight">love2d</a></li><li><a href="#gta-v" class="table-of-contents__link toc-highlight">GTA V</a></li><li><a href="#roblox" class="table-of-contents__link toc-highlight">Roblox</a></li><li><a href="#garrys-mod" class="table-of-contents__link toc-highlight">Garry&#39;s Mod</a></li><li><a href="#world-of-warcraft" class="table-of-contents__link toc-highlight">World Of Warcraft</a></li><li><a href="#other" class="table-of-contents__link toc-highlight">Other</a></li></ul></div></div></div></div></main></div></div></div></div>
+</body>
+</html>

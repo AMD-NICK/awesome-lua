@@ -1,0 +1,795 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-web" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.0.1">
+<title data-rh="true">🕸️ Web | awesome lua</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:url" content="https://amd-nick.github.io/web"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="🕸️ Web | awesome lua"><meta data-rh="true" name="description" content="add repo"><meta data-rh="true" property="og:description" content="add repo"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://amd-nick.github.io/web"><link data-rh="true" rel="alternate" href="https://amd-nick.github.io/web" hreflang="en"><link data-rh="true" rel="alternate" href="https://amd-nick.github.io/web" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.ebb2964c.css">
+<script src="/assets/js/runtime~main.e1f70db6.js" defer="defer"></script>
+<script src="/assets/js/main.b31d0a02.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" alt="Official Lua Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Lua-Logo.svg" alt="Official Lua Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Awesome Lua</b></a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/AMD-NICK/awesome-lua" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">Add repo<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/">All In One Simple List</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/development">🚧 Development</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/utils-small-libs">🔧 Utils / Small libs</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/web">🕸️ Web</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/api-services">🔗 API services</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/applications-related">🧶 Applications-related</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/game-development">🎮 Game development</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/storages">📦 Storages</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/unsorted">😕 Unsorted</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">🕸️ Web</span><meta itemprop="position" content="1"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><h1>🕸️ Web</h1>
+<p><a href="https://github.com/AMD-NICK/awesome-lua/edit/master/README.md" target="_blank" rel="noopener noreferrer"><img loading="lazy" src="https://img.shields.io/badge/Add_Your_Repo-green?style=for-the-badge&amp;logo=github" alt="add repo" class="img_ev3q"></a>
+<img loading="lazy" src="https://img.shields.io/badge/Last_Update-2023/12/21-blue?style=for-the-badge" alt="last update" class="img_ev3q">
+<img loading="lazy" src="https://img.shields.io/badge/Total_Items-154-blue?style=for-the-badge&amp;logo=awesomelists" alt="total items" class="img_ev3q"></p>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span><strong>Welcome to the collection of Lua repositories!</strong> 👋</div><div class="admonitionContent_BuS1"><p>All repositories are <strong>automatically</strong> sorted by a specific <code>Score</code>, which takes into account the date of the last commit, the number of stars, and also gives a slight advantage to repositories that have been recently created.</p><p>The meta-information about repositories is <strong>automatically updated</strong> regularly. <br>
+<!-- -->The generator for these pages is also written in <strong>Lua</strong> 🌑</p><p>You can add your own or someone else&#x27;s repository to the list by clicking the green button at the top or by creating an Issue. For every repository you add, you get 9000 love from me ❤️. It&#x27;s easy!</p><p>I would also welcome your suggestions on how to improve the structuring of repositories.</p></div></div>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Circles Legend</div><div class="admonitionContent_BuS1"><div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">Last commit..</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">⚪ 0-7 days ago     🟢 8-30 days ago</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">🟡 31-60 days ago   🟠 61-90 days ago</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">🟤 91-180 days ago  🔴 181-365 days ago</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">⚫ 366+ days ago</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div></div></div>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="frameworks">Frameworks<a href="#frameworks" class="hash-link" aria-label="Direct link to Frameworks" title="Direct link to Frameworks">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟠 83 <a href="https://github.com/luvit/luvit" target="_blank" rel="noopener noreferrer">luvit/luvit</a> – Lua + libUV + jIT = pure awesomesauce</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>hacktoberfest</code>, <code>libuv</code>, <code>lua</code>, <code>luajit</code>, <code>luvit</code> <br>
+<strong>Watchers</strong>: 172 <strong>Forks</strong>: 387 <strong>Stars</strong>: 3719 <strong>Issues</strong>: 86 <br>
+<strong>Last commit</strong>: 2023-09-30 (81 days ago) <br>
+<strong>Created at</strong>: 2011-09-10 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 61 <a href="https://github.com/pkulchenko/fullmoon" target="_blank" rel="noopener noreferrer">pkulchenko/fullmoon</a> – Fast and minimalistic Redbean-based Lua web framework in one file.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cosmopolitan</code>, <code>lua</code>, <code>webframework</code>, <code>webserver</code> <br>
+<strong>Watchers</strong>: 18 <strong>Forks</strong>: 22 <strong>Stars</strong>: 581 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2023-11-14 (37 days ago) <br>
+<strong>Created at</strong>: 2021-12-02 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 38 <a href="https://github.com/sailorproject/sailor" target="_blank" rel="noopener noreferrer">sailorproject/sailor</a> – A Lua MVC Web Framework.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 64 <strong>Forks</strong>: 125 <strong>Stars</strong>: 907 <strong>Issues</strong>: 48 <br>
+<strong>Last commit</strong>: 2022-10-28 (418 days ago) <br>
+<strong>Created at</strong>: 2014-01-02 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟠 38 <a href="https://github.com/kernelsauce/turbo" target="_blank" rel="noopener noreferrer">kernelsauce/turbo</a> – Turbo is a framework built for LuaJIT 2 to simplify the task of building fast and scalable network applications. It uses a event-driven, non-blocking, no thread design to deliver excellent performance and minimal footprint to high-load applications while also providing excellent support for embedded uses. </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>api-server</code>, <code>http</code>, <code>lua</code>, <code>luajit</code>, <code>network</code> <br>
+<strong>Watchers</strong>: 40 <strong>Forks</strong>: 87 <strong>Stars</strong>: 514 <strong>Issues</strong>: 37 <br>
+<strong>Last commit</strong>: 2023-10-04 (78 days ago) <br>
+<strong>Created at</strong>: 2012-01-22 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 21 <a href="https://github.com/mongrel2/Tir" target="_blank" rel="noopener noreferrer">mongrel2/Tir</a> – A Simple Lua Web Framework For Mongrel2</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 27 <strong>Stars</strong>: 257 <strong>Issues</strong>: 13 <br>
+<strong>Last commit</strong>: 2013-09-20 (3744 days ago) <br>
+<strong>Created at</strong>: 2011-05-21 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 21 <a href="https://github.com/ostinelli/gin" target="_blank" rel="noopener noreferrer">ostinelli/gin</a> – A LUA fast, low-latency, low-memory footprint, web JSON-API framework with Test Driven Development helpers and patterns.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 16 <strong>Forks</strong>: 35 <strong>Stars</strong>: 235 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2019-05-22 (1673 days ago) <br>
+<strong>Created at</strong>: 2013-09-03 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 20 <a href="https://github.com/miketang84/bamboo" target="_blank" rel="noopener noreferrer">miketang84/bamboo</a> – Bamboo is the web framework of Lua based on Mongrel2, ZeroMQ and NoSQL database.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 22 <strong>Forks</strong>: 28 <strong>Stars</strong>: 229 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2015-01-24 (3252 days ago) <br>
+<strong>Created at</strong>: 2011-02-21 <br>
+<strong>License</strong>: BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 20 <a href="https://github.com/daogangtang/bamboo" target="_blank" rel="noopener noreferrer">daogangtang/bamboo</a> – Bamboo is the web framework of Lua based on Mongrel2, ZeroMQ and NoSQL database.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 22 <strong>Forks</strong>: 28 <strong>Stars</strong>: 229 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2015-01-24 (3252 days ago) <br>
+<strong>Created at</strong>: 2011-02-21 <br>
+<strong>License</strong>: BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/benglard/waffle" target="_blank" rel="noopener noreferrer">benglard/waffle</a> – Fast, asynchronous web framework for Lua/Torch</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 16 <strong>Stars</strong>: 138 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2016-09-06 (2662 days ago) <br>
+<strong>Created at</strong>: 2015-03-30 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/keplerproject/orbit" target="_blank" rel="noopener noreferrer">keplerproject/orbit</a> – Orbit is an MVC web framework for Lua.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 22 <strong>Forks</strong>: 34 <strong>Stars</strong>: 112 <strong>Issues</strong>: 7 <br>
+<strong>Last commit</strong>: 2021-11-23 (757 days ago) <br>
+<strong>Created at</strong>: 2009-09-21 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/horan-geeker/nana" target="_blank" rel="noopener noreferrer">horan-geeker/nana</a> – Lua http api framework</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 28 <strong>Stars</strong>: 105 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2022-10-27 (419 days ago) <br>
+<strong>Created at</strong>: 2017-02-23 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/Olivine-Labs/lusty" target="_blank" rel="noopener noreferrer">Olivine-Labs/lusty</a> – Lua RESTful Web Application Framework</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 10 <strong>Stars</strong>: 102 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2015-10-19 (2984 days ago) <br>
+<strong>Created at</strong>: 2012-07-16 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 13 <a href="https://github.com/keplerproject/wsapi" target="_blank" rel="noopener noreferrer">keplerproject/wsapi</a> – WSAPI is an API that abstracts the web server from Lua web applications.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 34 <strong>Stars</strong>: 74 <strong>Issues</strong>: 15 <br>
+<strong>Last commit</strong>: 2023-07-10 (163 days ago) <br>
+<strong>Created at</strong>: 2009-09-21 <br>
+<strong>License</strong>: none</p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="clients">Clients<a href="#clients" class="hash-link" aria-label="Direct link to Clients" title="Direct link to Clients">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 47 <a href="https://github.com/xHasKx/luamqtt" target="_blank" rel="noopener noreferrer">xHasKx/luamqtt</a> – luamqtt - Pure-lua MQTT v3.1.1 and v5.0 client</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>internet-of-things</code>, <code>lua</code>, <code>lua-versions</code>, <code>luajit</code>, <code>luarocks</code>, <code>luasec</code>, <code>mqtt</code>, <code>mqtt-client</code>, <code>mqtt-protocol</code>, <code>mqtt5</code>, <code>protocol</code>, <code>smarthome</code>, <code>ssl</code>, <code>tcp-connection</code> <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 40 <strong>Stars</strong>: 139 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2023-12-05 (15 days ago) <br>
+<strong>Created at</strong>: 2018-09-16 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 35 <a href="https://github.com/daurnimator/lua-http" target="_blank" rel="noopener noreferrer">daurnimator/lua-http</a> – HTTP Library for Lua. Supports HTTP(S) 1.0, 1.1 and 2.0; client and server.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cqueues</code>, <code>http</code>, <code>http2</code>, <code>lua</code>, <code>network</code> <br>
+<strong>Watchers</strong>: 37 <strong>Forks</strong>: 81 <strong>Stars</strong>: 739 <strong>Issues</strong>: 55 <br>
+<strong>Last commit</strong>: 2023-08-28 (114 days ago) <br>
+<strong>Created at</strong>: 2015-01-29 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 20 <a href="https://github.com/JakobGreen/lua-requests" target="_blank" rel="noopener noreferrer">JakobGreen/lua-requests</a> – Requests for Lua!</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>digest-authentication</code>, <code>http</code>, <code>lua</code>, <code>luarocks</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 37 <strong>Stars</strong>: 202 <strong>Issues</strong>: 11 <br>
+<strong>Last commit</strong>: 2020-12-02 (1113 days ago) <br>
+<strong>Created at</strong>: 2015-03-31 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 19 <a href="https://github.com/bjornbytes/graphql-lua" target="_blank" rel="noopener noreferrer">bjornbytes/graphql-lua</a> – GraphQL implementation in Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 20 <strong>Forks</strong>: 30 <strong>Stars</strong>: 182 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2023-03-13 (282 days ago) <br>
+<strong>Created at</strong>: 2015-11-24 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 18 <a href="https://github.com/jinq0123/grpc-lua" target="_blank" rel="noopener noreferrer">jinq0123/grpc-lua</a> – The Lua gRPC binding. HTTP/2 based RPC <a href="http://grpc.io" target="_blank" rel="noopener noreferrer">http://grpc.io</a></summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>grpc</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 20 <strong>Stars</strong>: 149 <strong>Issues</strong>: 11 <br>
+<strong>Last commit</strong>: 2020-09-03 (1203 days ago) <br>
+<strong>Created at</strong>: 2017-01-28 <br>
+<strong>License</strong>: BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/DhavalKapil/elasticsearch-lua" target="_blank" rel="noopener noreferrer">DhavalKapil/elasticsearch-lua</a> – Lua client for Elasticsearch</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>elasticsearch</code>, <code>elasticsearch-lua</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 13 <strong>Forks</strong>: 38 <strong>Stars</strong>: 149 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2022-06-02 (566 days ago) <br>
+<strong>Created at</strong>: 2015-03-25 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/geekscape/mqtt_lua" target="_blank" rel="noopener noreferrer">geekscape/mqtt_lua</a> – MQTT Client library for the Lua language</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 22 <strong>Forks</strong>: 55 <strong>Stars</strong>: 138 <strong>Issues</strong>: 8 <br>
+<strong>Last commit</strong>: 2019-06-05 (1659 days ago) <br>
+<strong>Created at</strong>: 2011-07-28 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/ignacio/LuaOAuth" target="_blank" rel="noopener noreferrer">ignacio/LuaOAuth</a> – A OAuth client library for Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 15 <strong>Forks</strong>: 23 <strong>Stars</strong>: 110 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2016-02-05 (2875 days ago) <br>
+<strong>Created at</strong>: 2010-09-16 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/Neopallium/lua-handlers" target="_blank" rel="noopener noreferrer">Neopallium/lua-handlers</a> – Provides a set of async. callback based handlers for working with raw TCP/UDP socket, ZeroMQ sockets, or HTTP client/server.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 14 <strong>Stars</strong>: 104 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2016-08-23 (2675 days ago) <br>
+<strong>Created at</strong>: 2010-12-21 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/LPGhatguy/luajit-request" target="_blank" rel="noopener noreferrer">LPGhatguy/luajit-request</a> – Simple HTTPS for LuaJIT!</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 14 <strong>Stars</strong>: 73 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2018-06-26 (2003 days ago) <br>
+<strong>Created at</strong>: 2014-10-23 <br>
+<strong>License</strong>: zlib License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -7 <a href="https://github.com/lusis/lua-httpclient" target="_blank" rel="noopener noreferrer">lusis/lua-httpclient</a> – A unified http/s client library for lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 12 <strong>Stars</strong>: 69 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2016-10-31 (2606 days ago) <br>
+<strong>Created at</strong>: 2014-11-27 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="servers">Servers<a href="#servers" class="hash-link" aria-label="Direct link to Servers" title="Direct link to Servers">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 49 <a href="https://github.com/EvandroLG/pegasus.lua" target="_blank" rel="noopener noreferrer">EvandroLG/pegasus.lua</a> – <!-- -->🚀<!-- --> Pegasus.lua is an http server to work with web applications written in Lua language.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>http</code>, <code>http-server</code>, <code>lua</code>, <code>server</code> <br>
+<strong>Watchers</strong>: 33 <strong>Forks</strong>: 33 <strong>Stars</strong>: 370 <strong>Issues</strong>: 15 <br>
+<strong>Last commit</strong>: 2023-11-17 (33 days ago) <br>
+<strong>Created at</strong>: 2014-11-14 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 26 <a href="https://github.com/marcoskirsch/nodemcu-httpserver" target="_blank" rel="noopener noreferrer">marcoskirsch/nodemcu-httpserver</a> – A (very) simple web server written in Lua for the ESP8266 firmware NodeMCU.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>http</code>, <code>http-server</code>, <code>lua</code>, <code>nodemcu</code>, <code>nodemcu-httpserver</code>, <code>webserver</code>, <code>wemos-d1-mini</code> <br>
+<strong>Watchers</strong>: 53 <strong>Forks</strong>: 166 <strong>Stars</strong>: 395 <strong>Issues</strong>: 15 <br>
+<strong>Last commit</strong>: 2023-03-11 (285 days ago) <br>
+<strong>Created at</strong>: 2015-02-03 <br>
+<strong>License</strong>: GNU General Public License v2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 26 <a href="https://github.com/ignacio/LuaNode" target="_blank" rel="noopener noreferrer">ignacio/LuaNode</a> – Asynchronous I/O for Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 42 <strong>Forks</strong>: 43 <strong>Stars</strong>: 413 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2016-03-24 (2827 days ago) <br>
+<strong>Created at</strong>: 2010-11-08 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 25 <a href="https://github.com/lipp/lua-websockets" target="_blank" rel="noopener noreferrer">lipp/lua-websockets</a> – Websockets for Lua.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 39 <strong>Forks</strong>: 115 <strong>Stars</strong>: 379 <strong>Issues</strong>: 36 <br>
+<strong>Last commit</strong>: 2022-11-14 (401 days ago) <br>
+<strong>Created at</strong>: 2012-02-23 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 18 <a href="https://github.com/keplerproject/xavante" target="_blank" rel="noopener noreferrer">keplerproject/xavante</a> – Xavante is a Lua HTTP 1.1 Web server that uses a modular architecture based on URI mapped handlers.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 20 <strong>Forks</strong>: 44 <strong>Stars</strong>: 173 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2022-07-27 (511 days ago) <br>
+<strong>Created at</strong>: 2009-09-21 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/Skycrab/skynet_websocket" target="_blank" rel="noopener noreferrer">Skycrab/skynet_websocket</a> – skynet websocket(lua)</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 15 <strong>Forks</strong>: 72 <strong>Stars</strong>: 149 <strong>Issues</strong>: 7 <br>
+<strong>Last commit</strong>: 2017-12-20 (2191 days ago) <br>
+<strong>Created at</strong>: 2015-04-22 <br>
+<strong>License</strong>: none</p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="templating">Templating<a href="#templating" class="hash-link" aria-label="Direct link to Templating" title="Direct link to Templating">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 38 <a href="https://github.com/bungle/lua-resty-template" target="_blank" rel="noopener noreferrer">bungle/lua-resty-template</a> – Templating Engine (HTML) for Lua and OpenResty.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 62 <strong>Forks</strong>: 252 <strong>Stars</strong>: 891 <strong>Issues</strong>: 13 <br>
+<strong>Last commit</strong>: 2023-07-21 (152 days ago) <br>
+<strong>Created at</strong>: 2014-02-21 <br>
+<strong>License</strong>: BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟠 28 <a href="https://github.com/leafo/etlua" target="_blank" rel="noopener noreferrer">leafo/etlua</a> – Embedded Lua templates</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 17 <strong>Forks</strong>: 19 <strong>Stars</strong>: 199 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2023-10-02 (79 days ago) <br>
+<strong>Created at</strong>: 2013-10-25 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 20 <a href="https://github.com/Olivine-Labs/lustache" target="_blank" rel="noopener noreferrer">Olivine-Labs/lustache</a> – Mustache templates for Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 15 <strong>Forks</strong>: 33 <strong>Stars</strong>: 220 <strong>Issues</strong>: 15 <br>
+<strong>Last commit</strong>: 2022-08-16 (492 days ago) <br>
+<strong>Created at</strong>: 2012-07-22 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 19 <a href="https://github.com/weshoke/Lust" target="_blank" rel="noopener noreferrer">weshoke/Lust</a> – Lua String Templates</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 24 <strong>Forks</strong>: 29 <strong>Stars</strong>: 184 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2015-06-25 (3100 days ago) <br>
+<strong>Created at</strong>: 2013-04-11 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/henix/slt2" target="_blank" rel="noopener noreferrer">henix/slt2</a> – a simple Lua template processor</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 13 <strong>Forks</strong>: 8 <strong>Stars</strong>: 72 <strong>Issues</strong>: 7 <br>
+<strong>Last commit</strong>: 2020-01-02 (1449 days ago) <br>
+<strong>Created at</strong>: 2011-05-03 <br>
+<strong>License</strong>: none</p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="openresty-ngx">OpenResty (ngx)<a href="#openresty-ngx" class="hash-link" aria-label="Direct link to OpenResty (ngx)" title="Direct link to OpenResty (ngx)">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 91 <a href="https://github.com/alexazhou/VeryNginx" target="_blank" rel="noopener noreferrer">alexazhou/VeryNginx</a> –  A very powerful and friendly  nginx base on lua-nginx-module( openresty ) which provide WAF, Control Panel, and Dashboards. </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 275 <strong>Forks</strong>: 971 <strong>Stars</strong>: 5922 <strong>Issues</strong>: 113 <br>
+<strong>Last commit</strong>: 2020-06-30 (1268 days ago) <br>
+<strong>Created at</strong>: 2015-12-31 <br>
+<strong>License</strong>: GNU Lesser General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 84 <a href="https://github.com/auto-ssl/lua-resty-auto-ssl" target="_blank" rel="noopener noreferrer">auto-ssl/lua-resty-auto-ssl</a> – On the fly (and free) SSL registration and renewal inside OpenResty/nginx with Let&#x27;s Encrypt.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>letsencrypt</code>, <code>lua</code>, <code>nginx</code>, <code>openresty</code>, <code>ssl</code>, <code>ssl-certificate</code> <br>
+<strong>Watchers</strong>: 45 <strong>Forks</strong>: 181 <strong>Stars</strong>: 1902 <strong>Issues</strong>: 118 <br>
+<strong>Last commit</strong>: 2023-11-23 (28 days ago) <br>
+<strong>Created at</strong>: 2016-01-25 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 80 <a href="https://github.com/openresty/lua-resty-redis" target="_blank" rel="noopener noreferrer">openresty/lua-resty-redis</a> – Lua redis client driver for the ngx_lua based on the cosocket API</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 111 <strong>Forks</strong>: 457 <strong>Stars</strong>: 1853 <strong>Issues</strong>: 77 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2012-02-06 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 76 <a href="https://github.com/loveshell/ngx_lua_waf" target="_blank" rel="noopener noreferrer">loveshell/ngx_lua_waf</a> – ngx_lua_waf是一个基于lua-nginx-module(openresty)的web应用防火墙</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 237 <strong>Forks</strong>: 1458 <strong>Stars</strong>: 3836 <strong>Issues</strong>: 83 <br>
+<strong>Last commit</strong>: 2022-12-23 (362 days ago) <br>
+<strong>Created at</strong>: 2013-03-23 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 76 <a href="https://github.com/sumory/lor" target="_blank" rel="noopener noreferrer">sumory/lor</a> – a fast, minimalist web framework for lua based on OpenResty</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>api</code>, <code>lua</code>, <code>nginx</code>, <code>openresty</code>, <code>restful</code>, <code>sinatra</code>, <code>web</code> <br>
+<strong>Watchers</strong>: 82 <strong>Forks</strong>: 179 <strong>Stars</strong>: 1006 <strong>Issues</strong>: 12 <br>
+<strong>Last commit</strong>: 2023-12-20 (0 days ago) <br>
+<strong>Created at</strong>: 2016-01-14 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 70 <a href="https://github.com/openresty/lua-resty-core" target="_blank" rel="noopener noreferrer">openresty/lua-resty-core</a> – New FFI-based API for lua-nginx-module</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 62 <strong>Forks</strong>: 269 <strong>Stars</strong>: 759 <strong>Issues</strong>: 72 <br>
+<strong>Last commit</strong>: 2023-12-20 (0 days ago) <br>
+<strong>Created at</strong>: 2013-04-30 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 67 <a href="https://github.com/leandromoreira/cdn-up-and-running" target="_blank" rel="noopener noreferrer">leandromoreira/cdn-up-and-running</a> – CDN Up and Running - Building a CDN from Scratch to Learn about CDN, Nginx, Lua, Prometheus, Grafana, Load balancing, and Containers.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cdn</code>, <code>docker-compose</code>, <code>grafana</code>, <code>load-balancer</code>, <code>lua</code>, <code>luajit</code>, <code>nginx</code>, <code>openresty</code>, <code>prometheus</code>, <code>sre</code>, <code>tutorial</code>, <code>wrk</code> <br>
+<strong>Watchers</strong>: 33 <strong>Forks</strong>: 164 <strong>Stars</strong>: 2779 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2023-03-21 (275 days ago) <br>
+<strong>Created at</strong>: 2021-12-23 <br>
+<strong>License</strong>: BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 62 <a href="https://github.com/openresty/lua-resty-limit-traffic" target="_blank" rel="noopener noreferrer">openresty/lua-resty-limit-traffic</a> – Lua library for limiting and controlling traffic in OpenResty/ngx_lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 51 <strong>Forks</strong>: 162 <strong>Stars</strong>: 786 <strong>Issues</strong>: 31 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2015-09-02 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 59 <a href="https://github.com/openresty/lua-resty-mysql" target="_blank" rel="noopener noreferrer">openresty/lua-resty-mysql</a> – Nonblocking Lua MySQL driver library for ngx_lua or OpenResty</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 73 <strong>Forks</strong>: 240 <strong>Stars</strong>: 685 <strong>Issues</strong>: 51 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2012-02-12 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 56 <a href="https://github.com/ledgetech/lua-resty-http" target="_blank" rel="noopener noreferrer">ledgetech/lua-resty-http</a> – Lua HTTP client cosocket driver for OpenResty / ngx_lua.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>http</code>, <code>http-client</code>, <code>lua</code>, <code>luajit</code>, <code>nginx</code>, <code>nginx-lua</code>, <code>openresty</code>, <code>streaming</code> <br>
+<strong>Watchers</strong>: 89 <strong>Forks</strong>: 626 <strong>Stars</strong>: 1918 <strong>Issues</strong>: 26 <br>
+<strong>Last commit</strong>: 2023-03-22 (273 days ago) <br>
+<strong>Created at</strong>: 2013-10-10 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 55 <a href="https://github.com/doujiang24/lua-resty-kafka" target="_blank" rel="noopener noreferrer">doujiang24/lua-resty-kafka</a> – Lua kafka client driver for the Openresty based on the cosocket API</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 70 <strong>Forks</strong>: 275 <strong>Stars</strong>: 782 <strong>Issues</strong>: 68 <br>
+<strong>Last commit</strong>: 2023-11-03 (47 days ago) <br>
+<strong>Created at</strong>: 2014-09-26 <br>
+<strong>License</strong>: BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 55 <a href="https://github.com/openresty/lua-resty-upstream-healthcheck" target="_blank" rel="noopener noreferrer">openresty/lua-resty-upstream-healthcheck</a> – Health Checker for Nginx Upstream Servers in Pure Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 43 <strong>Forks</strong>: 138 <strong>Stars</strong>: 501 <strong>Issues</strong>: 47 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2014-01-27 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 55 <a href="https://github.com/openresty/lua-resty-websocket" target="_blank" rel="noopener noreferrer">openresty/lua-resty-websocket</a> – WebSocket support for the ngx_lua module (and OpenResty)</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 49 <strong>Forks</strong>: 108 <strong>Stars</strong>: 488 <strong>Issues</strong>: 33 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2013-09-10 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 53 <a href="https://github.com/openresty/lua-resty-lrucache" target="_blank" rel="noopener noreferrer">openresty/lua-resty-lrucache</a> – Lua-land LRU Cache based on LuaJIT FFI</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 28 <strong>Forks</strong>: 104 <strong>Stars</strong>: 423 <strong>Issues</strong>: 12 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2014-04-30 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 52 <a href="https://github.com/openresty/lua-resty-string" target="_blank" rel="noopener noreferrer">openresty/lua-resty-string</a> – String utilities and common hash functions for ngx_lua and LuaJIT</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 37 <strong>Forks</strong>: 145 <strong>Stars</strong>: 419 <strong>Issues</strong>: 34 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2012-02-27 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 52 <a href="https://github.com/YunoHost/SSOwat" target="_blank" rel="noopener noreferrer">YunoHost/SSOwat</a> – A simple SSO for NGINX, written in Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>authentication-portal</code>, <code>closember</code>, <code>ldap</code>, <code>lua</code>, <code>nginx-module</code>, <code>sso</code>, <code>yunohost</code> <br>
+<strong>Watchers</strong>: 29 <strong>Forks</strong>: 70 <strong>Stars</strong>: 229 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2023-12-10 (10 days ago) <br>
+<strong>Created at</strong>: 2013-10-15 <br>
+<strong>License</strong>: GNU Affero General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 52 <a href="https://github.com/openresty/lua-resty-upload" target="_blank" rel="noopener noreferrer">openresty/lua-resty-upload</a> – Streaming reader and parser for http file uploading based on ngx_lua cosocket</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 40 <strong>Forks</strong>: 118 <strong>Stars</strong>: 389 <strong>Issues</strong>: 20 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2012-02-08 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 51 <a href="https://github.com/fffonion/lua-resty-openssl" target="_blank" rel="noopener noreferrer">fffonion/lua-resty-openssl</a> – FFI-based OpenSSL binding for OpenResty</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>ffi</code>, <code>lua-nginx-module</code>, <code>openresty</code>, <code>openssl</code> <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 36 <strong>Stars</strong>: 110 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2023-12-20 (0 days ago) <br>
+<strong>Created at</strong>: 2019-09-25 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 50 <a href="https://github.com/Kong/lua-resty-healthcheck" target="_blank" rel="noopener noreferrer">Kong/lua-resty-healthcheck</a> – Healthcheck library for OpenResty to validate upstream service status</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 30 <strong>Forks</strong>: 51 <strong>Stars</strong>: 121 <strong>Issues</strong>: 7 <br>
+<strong>Last commit</strong>: 2023-12-15 (5 days ago) <br>
+<strong>Created at</strong>: 2017-09-14 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 49 <a href="https://github.com/openresty/lua-resty-dns" target="_blank" rel="noopener noreferrer">openresty/lua-resty-dns</a> – DNS resolver for the nginx lua module</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 28 <strong>Forks</strong>: 108 <strong>Stars</strong>: 316 <strong>Issues</strong>: 16 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2012-08-02 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 49 <a href="https://github.com/openresty/lua-resty-lock" target="_blank" rel="noopener noreferrer">openresty/lua-resty-lock</a> – Simple nonblocking lock API for ngx_lua based on shared memory dictionaries</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 34 <strong>Forks</strong>: 81 <strong>Stars</strong>: 300 <strong>Issues</strong>: 8 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2013-09-26 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 49 <a href="https://github.com/knyar/nginx-lua-prometheus" target="_blank" rel="noopener noreferrer">knyar/nginx-lua-prometheus</a> – Prometheus metric library for Nginx written in Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>metrics</code>, <code>monitoring</code>, <code>nginx</code>, <code>prometheus</code> <br>
+<strong>Watchers</strong>: 28 <strong>Forks</strong>: 222 <strong>Stars</strong>: 1372 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2023-08-24 (118 days ago) <br>
+<strong>Created at</strong>: 2016-03-19 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 47 <a href="https://github.com/unixhot/waf" target="_blank" rel="noopener noreferrer">unixhot/waf</a> – 使用Nginx+Lua实现的WAF（版本v1.0）</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 81 <strong>Forks</strong>: 497 <strong>Stars</strong>: 1287 <strong>Issues</strong>: 23 <br>
+<strong>Last commit</strong>: 2023-08-07 (135 days ago) <br>
+<strong>Created at</strong>: 2015-09-14 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 46 <a href="https://github.com/starjun/openstar" target="_blank" rel="noopener noreferrer">starjun/openstar</a> – lua waf,nginx+lua,openresty,luajit,waf+,cdn,nginx</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 92 <strong>Forks</strong>: 427 <strong>Stars</strong>: 1229 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2021-10-10 (801 days ago) <br>
+<strong>Created at</strong>: 2016-05-18 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 46 <a href="https://github.com/openresty/lua-resty-memcached" target="_blank" rel="noopener noreferrer">openresty/lua-resty-memcached</a> – Lua memcached client driver for the ngx_lua based on the cosocket API</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 30 <strong>Forks</strong>: 64 <strong>Stars</strong>: 208 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2023-11-23 (27 days ago) <br>
+<strong>Created at</strong>: 2012-02-02 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 44 <a href="https://github.com/C0nw0nk/Nginx-Lua-Anti-DDoS" target="_blank" rel="noopener noreferrer">C0nw0nk/Nginx-Lua-Anti-DDoS</a> – A Anti-DDoS script to protect Nginx web servers using Lua with a HTML Javascript based authentication puzzle inspired by Cloudflare I am under attack mode an Anti-DDoS authentication page protect yourself from every attack type All Layer 7 Attacks Mitigating Historic Attacks DoS DoS Implications DDoS All Brute Force Attacks Zero day exploits Social Engineering Rainbow Tables Password Cracking Tools Password Lists Dictionary Attacks Time Delay Any Hosting Provider Any CMS or Custom Website Unlimited Attempt Frequency Search Attacks HTTP Basic Authentication HTTP Digest Authentication HTML Form Based Authentication Mask Attacks Rule-Based Search Attacks Combinator Attacks Botnet Attacks Unauthorized IPs IP Whitelisting Bruter THC Hydra John the Ripper Brutus Ophcrack unauthorized logins Injection Broken Authentication and Session Management Sensitive Data Exposure XML External Entities (XXE) Broken Access Control Security Misconfiguration Cross-Site Scripting (XSS) Insecure Deserialization Using Components with Known Vulnerabilities Insufficient Logging &amp; Monitoring Drupal WordPress Joomla Flash Magento PHP Plone WHMCS Atlassian Products malicious traffic Adult video script avs KVS Kernel Video Sharing Clip Bucket Tube sites Content Management Systems Social networks scripts backends proxy proxies PHP Python Porn sites xxx adult gaming networks servers sites forums vbulletin phpbb mybb smf simple machines forum xenforo web hosting video streaming buffering ldap upstream downstream download upload rtmp vod video over dl hls dash hds mss livestream drm mp4 mp3 swf css js html php python sex m3u zip rar archive compressed mitigation code source sourcecode chan 4chan 4chan.org 8chan.net 8ch 8ch.net infinite chan 8kun 8kun.net anonymous anon tor services .onion torproject.org nginx.org nginx.com openresty.org darknet dark net deepweb deep web darkweb dark web mirror vpn reddit reddit.com adobe flash hackthissite.org dreamhack hack hacked hacking hacker hackers hackerz hackz hacks code coding script scripting scripter source leaks leaked leaking cve vulnerability great firewall china america japan russia .gov government http1 http2 http3 quic q3 litespeedtech litespeed apache torrents torrent torrenting webtorrent bittorrent bitorrent bit-torrent cyberlocker cyberlockers cyber locker cyberbunker warez keygen key generator free irc internet relay chat peer-to-peer p2p cryptocurrency crypto bitcoin miner browser xmr monero coinhive coin hive coin-hive litecoin ethereum cpu cycles popads pop-ads advert advertisement networks banner ads protect ovh blazingfast.io amazon steampowered valve store.steampowered.com steamcommunity thepiratebay lulzsec antisec xhamster pornhub porn.com pornhub.com xhamster.com xvideos xvdideos.com xnxx xnxx.com popads popcash cpm ppc</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>anti-ddos</code>, <code>anti-ddos-script</code>, <code>attack-mode</code>, <code>bitmitigate</code>, <code>cloudflare</code>, <code>ddos</code>, <code>ddos-attack</code>, <code>ddos-mitigation</code>, <code>denial-of-service</code>, <code>distributed-denial-of-service</code>, <code>dos</code>, <code>exploit</code>, <code>html</code>, <code>javascript</code>, <code>lua</code>, <code>nginx-lua</code>, <code>protection</code>, <code>security</code>, <code>sucuri</code>, <code>traffic</code> <br>
+<strong>Watchers</strong>: 44 <strong>Forks</strong>: 260 <strong>Stars</strong>: 951 <strong>Issues</strong>: 42 <br>
+<strong>Last commit</strong>: 2023-02-24 (299 days ago) <br>
+<strong>Created at</strong>: 2019-08-21 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 43 <a href="https://github.com/Tinywan/lua-nginx-redis" target="_blank" rel="noopener noreferrer">Tinywan/lua-nginx-redis</a> – <!-- -->🌺<!-- --> Redis、Lua、Nginx、OpenResty 笔记和资料</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>docker</code>, <code>hls</code>, <code>lua</code>, <code>luajit</code>, <code>nginx</code>, <code>nginx-docker</code>, <code>nginx-lua</code>, <code>nginx-module</code>, <code>nginx-rtmp</code>, <code>openresty</code>, <code>openresty-module</code>, <code>redis</code>, <code>redis-lua</code>, <code>redis-server</code>, <code>shell-script</code> <br>
+<strong>Watchers</strong>: 61 <strong>Forks</strong>: 372 <strong>Stars</strong>: 1026 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2021-10-26 (785 days ago) <br>
+<strong>Created at</strong>: 2017-02-22 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 43 <a href="https://github.com/xxddpac/wArmor" target="_blank" rel="noopener noreferrer">xxddpac/wArmor</a> – 🚀 An WAF Framework based on OpenResty</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>golang</code>, <code>lua</code>, <code>openresty</code>, <code>security</code>, <code>waf</code> <br>
+<strong>Watchers</strong>: 15 <strong>Forks</strong>: 24 <strong>Stars</strong>: 137 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2023-11-21 (29 days ago) <br>
+<strong>Created at</strong>: 2023-11-15 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟢 42 <a href="https://github.com/Yelp/casper" target="_blank" rel="noopener noreferrer">Yelp/casper</a> – A fast web application platform built in Rust and Luau</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>luau</code>, <code>rust</code>, <code>yelp</code> <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 7 <strong>Stars</strong>: 84 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2023-11-28 (22 days ago) <br>
+<strong>Created at</strong>: 2018-02-09 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 39 <a href="https://github.com/anjia0532/lua-resty-maxminddb" target="_blank" rel="noopener noreferrer">anjia0532/lua-resty-maxminddb</a> – A Lua library for reading MaxMind&#x27;s Geolocation database</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>geo</code>, <code>geoip</code>, <code>lua</code>, <code>luajit</code>, <code>maxmind</code>, <code>maxmind-db</code>, <code>maxmind-geoip</code>, <code>openresty</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 30 <strong>Stars</strong>: 93 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2023-11-18 (32 days ago) <br>
+<strong>Created at</strong>: 2017-09-15 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 39 <a href="https://github.com/zmartzone/lua-resty-openidc" target="_blank" rel="noopener noreferrer">zmartzone/lua-resty-openidc</a> – OpenID Connect Relying Party and OAuth 2.0 Resource Server implementation in Lua for NGINX / OpenResty</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>jwt-bearer-tokens</code>, <code>lua</code>, <code>lua-resty-openidc</code>, <code>nginx</code>, <code>oauth2</code>, <code>openidc</code>, <code>openidconnect</code> <br>
+<strong>Watchers</strong>: 38 <strong>Forks</strong>: 245 <strong>Stars</strong>: 902 <strong>Issues</strong>: 58 <br>
+<strong>Last commit</strong>: 2023-08-11 (131 days ago) <br>
+<strong>Created at</strong>: 2015-07-14 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 37 <a href="https://github.com/fffonion/lua-resty-acme" target="_blank" rel="noopener noreferrer">fffonion/lua-resty-acme</a> – Automatic Let&#x27;s Encrypt certificate serving and Lua implementation of ACMEv2 procotol </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>acme</code>, <code>acme-lua</code>, <code>acme-v2</code>, <code>letsencrypt</code>, <code>openresty</code> <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 36 <strong>Stars</strong>: 139 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2023-11-03 (47 days ago) <br>
+<strong>Created at</strong>: 2019-09-18 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟡 31 <a href="https://github.com/ysugimoto/lua-resty-grpc-gateway" target="_blank" rel="noopener noreferrer">ysugimoto/lua-resty-grpc-gateway</a> – REST &lt;-&gt; gRPC gateway library implementation with OpenResty</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>grpc</code>, <code>grpc-web</code>, <code>lua</code>, <code>openresty</code> <br>
+<strong>Watchers</strong>: 3 <strong>Forks</strong>: 18 <strong>Stars</strong>: 86 <strong>Issues</strong>: 18 <br>
+<strong>Last commit</strong>: 2023-10-25 (56 days ago) <br>
+<strong>Created at</strong>: 2019-04-24 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 27 <a href="https://github.com/ledgetech/ledge" target="_blank" rel="noopener noreferrer">ledgetech/ledge</a> – An RFC compliant and ESI capable HTTP cache for Nginx / OpenResty, backed by Redis</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cache</code>, <code>edge</code>, <code>esi</code>, <code>http</code>, <code>lua</code>, <code>luajit</code>, <code>openresty</code>, <code>redis</code>, <code>redis-sentinel</code> <br>
+<strong>Watchers</strong>: 32 <strong>Forks</strong>: 59 <strong>Stars</strong>: 452 <strong>Issues</strong>: 15 <br>
+<strong>Last commit</strong>: 2021-05-07 (957 days ago) <br>
+<strong>Created at</strong>: 2011-06-29 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 25 <a href="https://github.com/dualface/gbc-core" target="_blank" rel="noopener noreferrer">dualface/gbc-core</a> – GameBox Cloud Core - The Game Server Framework based on Lua and OpenResty.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>gamebox-cloud</code>, <code>lua</code> <br>
+<strong>Watchers</strong>: 57 <strong>Forks</strong>: 111 <strong>Stars</strong>: 361 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2018-09-14 (1923 days ago) <br>
+<strong>Created at</strong>: 2015-11-04 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 24 <a href="https://github.com/openresty/lua-resty-balancer" target="_blank" rel="noopener noreferrer">openresty/lua-resty-balancer</a> – A generic consistent hash implementation for OpenResty/Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 26 <strong>Forks</strong>: 75 <strong>Stars</strong>: 312 <strong>Issues</strong>: 13 <br>
+<strong>Last commit</strong>: 2023-08-23 (120 days ago) <br>
+<strong>Created at</strong>: 2016-01-14 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 24 <a href="https://github.com/tl-open-source/tl-ops-manage" target="_blank" rel="noopener noreferrer">tl-open-source/tl-ops-manage</a> – api-gateway, framework for service management based on openresty。balance, health-check, limit-fuse, waf, 负载均衡，健康检查，服务熔断，服务限流，动态配置，数据统计,  waf过滤，黑白名单，基于openresty的API网关 </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>api-gateway</code>, <code>balance</code>, <code>health-check</code>, <code>limiter</code>, <code>lua</code>, <code>openresty</code>, <code>openresty-lua</code>, <code>openresty-web-framework</code>, <code>plugin</code>, <code>store</code>, <code>waf</code>, <code>webmanagementtools</code> <br>
+<strong>Watchers</strong>: 2 <strong>Forks</strong>: 36 <strong>Stars</strong>: 217 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2023-07-31 (142 days ago) <br>
+<strong>Created at</strong>: 2021-12-22 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 24 <a href="https://github.com/iamtsm/tl-ops-manage" target="_blank" rel="noopener noreferrer">iamtsm/tl-ops-manage</a> – api-gateway, framework for service management based on openresty。balance, health-check, limit-fuse, waf, 负载均衡，健康检查，服务熔断，服务限流，动态配置，数据统计,  waf过滤，黑白名单，基于openresty的API网关 </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>api-gateway</code>, <code>balance</code>, <code>health-check</code>, <code>limiter</code>, <code>lua</code>, <code>openresty</code>, <code>openresty-lua</code>, <code>openresty-web-framework</code>, <code>plugin</code>, <code>store</code>, <code>waf</code>, <code>webmanagementtools</code> <br>
+<strong>Watchers</strong>: 2 <strong>Forks</strong>: 36 <strong>Stars</strong>: 217 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2023-07-31 (142 days ago) <br>
+<strong>Created at</strong>: 2021-12-22 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 23 <a href="https://github.com/bungle/lua-resty-session" target="_blank" rel="noopener noreferrer">bungle/lua-resty-session</a> – Session library for OpenResty – flexible and secure</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 24 <strong>Forks</strong>: 105 <strong>Stars</strong>: 309 <strong>Issues</strong>: 20 <br>
+<strong>Last commit</strong>: 2023-08-16 (126 days ago) <br>
+<strong>Created at</strong>: 2014-06-05 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 23 <a href="https://github.com/iresty/Mio" target="_blank" rel="noopener noreferrer">iresty/Mio</a> –  API statistics/summary and health datas in NGINX based on OpenResty/ngx_lua, just like NGINX Plus</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 33 <strong>Forks</strong>: 69 <strong>Stars</strong>: 285 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2016-12-06 (2570 days ago) <br>
+<strong>Created at</strong>: 2016-08-01 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 22 <a href="https://github.com/upyun/lua-resty-checkups" target="_blank" rel="noopener noreferrer">upyun/lua-resty-checkups</a> – Manage Nginx upstreams in pure Lua.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua-resty</code> <br>
+<strong>Watchers</strong>: 22 <strong>Forks</strong>: 66 <strong>Stars</strong>: 258 <strong>Issues</strong>: 10 <br>
+<strong>Last commit</strong>: 2019-11-26 (1485 days ago) <br>
+<strong>Created at</strong>: 2016-08-18 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 22 <a href="https://github.com/spacewander/lua-resty-rsa" target="_blank" rel="noopener noreferrer">spacewander/lua-resty-rsa</a> – RSA encrypt/decrypt &amp; sign/verify for OpenResty/LuaJIT</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 21 <strong>Forks</strong>: 101 <strong>Stars</strong>: 258 <strong>Issues</strong>: 9 <br>
+<strong>Last commit</strong>: 2022-05-26 (574 days ago) <br>
+<strong>Created at</strong>: 2014-12-11 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 21 <a href="https://github.com/appwilldev/moochine" target="_blank" rel="noopener noreferrer">appwilldev/moochine</a> – MOOCHINE - A simple and lightweight web framework based on OpenResty(ngx_lua, <a href="http://openresty.org" target="_blank" rel="noopener noreferrer">http://openresty.org</a>).</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 50 <strong>Forks</strong>: 71 <strong>Stars</strong>: 240 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2014-05-28 (3494 days ago) <br>
+<strong>Created at</strong>: 2012-02-09 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 21 <a href="https://github.com/ledgetech/lua-resty-redis-connector" target="_blank" rel="noopener noreferrer">ledgetech/lua-resty-redis-connector</a> – Connection utilities for lua-resty-redis</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>lua-resty-redis</code>, <code>luajit</code>, <code>nginx</code>, <code>openresty</code>, <code>redis</code>, <code>redis-sentinel</code> <br>
+<strong>Watchers</strong>: 16 <strong>Forks</strong>: 71 <strong>Stars</strong>: 230 <strong>Issues</strong>: 8 <br>
+<strong>Last commit</strong>: 2022-01-07 (712 days ago) <br>
+<strong>Created at</strong>: 2015-05-08 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 19 <a href="https://github.com/apache/skywalking-nginx-lua" target="_blank" rel="noopener noreferrer">apache/skywalking-nginx-lua</a> – The Nginx Lua agent for Apache SkyWalking</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>apm</code>, <code>dapper</code>, <code>distributed-tracing</code>, <code>lua</code>, <code>nginx</code>, <code>observability</code>, <code>skywalking</code> <br>
+<strong>Watchers</strong>: 44 <strong>Forks</strong>: 66 <strong>Stars</strong>: 172 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2022-12-22 (364 days ago) <br>
+<strong>Created at</strong>: 2020-02-19 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 19 <a href="https://github.com/wingify/lua-resty-rabbitmqstomp" target="_blank" rel="noopener noreferrer">wingify/lua-resty-rabbitmqstomp</a> – Opinionated Lua RabbitMQ client library for the ngx_lua apps based on the cosocket API</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 56 <strong>Forks</strong>: 55 <strong>Stars</strong>: 193 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2020-04-27 (1332 days ago) <br>
+<strong>Created at</strong>: 2013-05-30 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 19 <a href="https://github.com/Kong/lua-resty-worker-events" target="_blank" rel="noopener noreferrer">Kong/lua-resty-worker-events</a> – Cross Worker Events for Nginx in Pure Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 35 <strong>Forks</strong>: 44 <strong>Stars</strong>: 183 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2022-06-02 (566 days ago) <br>
+<strong>Created at</strong>: 2016-01-25 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 19 <a href="https://github.com/theganyo/lua2go" target="_blank" rel="noopener noreferrer">theganyo/lua2go</a> – Easy access to your Go (Golang) modules from Lua and NGINX!</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 22 <strong>Stars</strong>: 180 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2016-04-19 (2801 days ago) <br>
+<strong>Created at</strong>: 2016-03-31 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 19 <a href="https://github.com/liseen/lua-resty-http" target="_blank" rel="noopener noreferrer">liseen/lua-resty-http</a> – Lua http client driver for the ngx_lua based on the cosocket API</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 27 <strong>Forks</strong>: 71 <strong>Stars</strong>: 188 <strong>Issues</strong>: 12 <br>
+<strong>Last commit</strong>: 2017-06-23 (2371 days ago) <br>
+<strong>Created at</strong>: 2012-04-09 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 19 <a href="https://github.com/saks/lua-resty-repl" target="_blank" rel="noopener noreferrer">saks/lua-resty-repl</a> – Interactive console (REPL) for Openresty and luajit code</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cli</code>, <code>debugger</code>, <code>lua</code>, <code>luajit</code>, <code>nginx</code>, <code>openresty</code>, <code>readline</code>, <code>repl</code>, <code>resty-repl</code> <br>
+<strong>Watchers</strong>: 16 <strong>Forks</strong>: 22 <strong>Stars</strong>: 176 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2017-07-28 (2336 days ago) <br>
+<strong>Created at</strong>: 2016-08-29 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 19 <a href="https://github.com/bungle/lua-resty-nettle" target="_blank" rel="noopener noreferrer">bungle/lua-resty-nettle</a> – LuaJIT FFI bindings for Nettle (a low-level cryptographic library) </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 45 <strong>Stars</strong>: 180 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2023-06-08 (195 days ago) <br>
+<strong>Created at</strong>: 2014-06-09 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 19 <a href="https://github.com/hpxl/nginx-lua-fastdfs-GraphicsMagick" target="_blank" rel="noopener noreferrer">hpxl/nginx-lua-fastdfs-GraphicsMagick</a> – nginx+lua+fastdfs+GraphicsMagick 动态生成缩略图</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 26 <strong>Forks</strong>: 70 <strong>Stars</strong>: 177 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2014-05-25 (3497 days ago) <br>
+<strong>Created at</strong>: 2014-05-22 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 18 <a href="https://github.com/adobe-apiplatform/api-gateway-aws" target="_blank" rel="noopener noreferrer">adobe-apiplatform/api-gateway-aws</a> – AWS SDK for NGINX with Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 28 <strong>Forks</strong>: 45 <strong>Stars</strong>: 170 <strong>Issues</strong>: 14 <br>
+<strong>Last commit</strong>: 2021-03-23 (1002 days ago) <br>
+<strong>Created at</strong>: 2015-06-02 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 18 <a href="https://github.com/tokers/lua-resty-requests" target="_blank" rel="noopener noreferrer">tokers/lua-resty-requests</a> – Yet Another HTTP library for OpenResty - For human beings!</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua-resty</code>, <code>openresty</code> <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 28 <strong>Stars</strong>: 159 <strong>Issues</strong>: 11 <br>
+<strong>Last commit</strong>: 2020-05-06 (1323 days ago) <br>
+<strong>Created at</strong>: 2018-01-28 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 18 <a href="https://github.com/torhve/LuaWeb" target="_blank" rel="noopener noreferrer">torhve/LuaWeb</a> – A very simple blog engine using openresty, nginx, lua, markdown, git and redis</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 16 <strong>Forks</strong>: 41 <strong>Stars</strong>: 170 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2014-12-27 (3280 days ago) <br>
+<strong>Created at</strong>: 2012-11-10 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 18 <a href="https://github.com/jirutka/ngx-oauth" target="_blank" rel="noopener noreferrer">jirutka/ngx-oauth</a> – OAuth 2.0 proxy for nginx written in Lua.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>nginx</code>, <code>oauth</code>, <code>oauth-proxy</code>, <code>oauth2</code>, <code>openresty</code> <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 28 <strong>Stars</strong>: 155 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2021-01-28 (1056 days ago) <br>
+<strong>Created at</strong>: 2015-11-18 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 18 <a href="https://github.com/leandromoreira/nginx-lua-redis-rate-measuring" target="_blank" rel="noopener noreferrer">leandromoreira/nginx-lua-redis-rate-measuring</a> – A lua library to provide distributed rate measurement using nginx + redis, you can use it to do a throttling system within many nodes.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>distributed-systems</code>, <code>lua</code>, <code>measurements</code>, <code>nginx</code>, <code>rate-limit</code>, <code>rate-limiter</code>, <code>redis</code>, <code>redis-cluster</code>, <code>throttle</code> <br>
+<strong>Watchers</strong>: 6 <strong>Forks</strong>: 15 <strong>Stars</strong>: 143 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2023-09-04 (107 days ago) <br>
+<strong>Created at</strong>: 2019-01-24 <br>
+<strong>License</strong>: BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/bungle/lua-resty-validation" target="_blank" rel="noopener noreferrer">bungle/lua-resty-validation</a> – Validation Library (Input Validation and Filtering) for Lua and OpenResty.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 14 <strong>Forks</strong>: 24 <strong>Stars</strong>: 149 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2021-08-31 (841 days ago) <br>
+<strong>Created at</strong>: 2014-04-03 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/appwilldev/moochine-demo" target="_blank" rel="noopener noreferrer">appwilldev/moochine-demo</a> – OpenResty(ngx_lua, <a href="http://openresty.org" target="_blank" rel="noopener noreferrer">http://openresty.org</a> )+Moochine 完整实例 </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 51 <strong>Forks</strong>: 60 <strong>Stars</strong>: 151 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2016-08-29 (2670 days ago) <br>
+<strong>Created at</strong>: 2012-06-25 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/SpringCloud/nginx-zuul-dynamic-lb" target="_blank" rel="noopener noreferrer">SpringCloud/nginx-zuul-dynamic-lb</a> – <!-- -->🍁<!-- --> 基于Lua的Spring Cloud网关高可用通用Ngnix插件</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 20 <strong>Forks</strong>: 77 <strong>Stars</strong>: 139 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2019-04-18 (1707 days ago) <br>
+<strong>Created at</strong>: 2018-05-17 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/juce/lua-resty-shell" target="_blank" rel="noopener noreferrer">juce/lua-resty-shell</a> – tiny subprocess/shell library to use with OpenResty application server</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 41 <strong>Stars</strong>: 143 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2022-09-28 (448 days ago) <br>
+<strong>Created at</strong>: 2014-03-31 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 17 <a href="https://github.com/luastar/luastar" target="_blank" rel="noopener noreferrer">luastar/luastar</a> – 一个基于openresty的http接口开发框架或网关</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 14 <strong>Forks</strong>: 56 <strong>Stars</strong>: 139 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2022-12-27 (358 days ago) <br>
+<strong>Created at</strong>: 2015-12-10 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/agoragames/nginx-google-oauth" target="_blank" rel="noopener noreferrer">agoragames/nginx-google-oauth</a> – Lua module to add Google OAuth to nginx</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 32 <strong>Forks</strong>: 25 <strong>Stars</strong>: 140 <strong>Issues</strong>: 10 <br>
+<strong>Last commit</strong>: 2021-03-11 (1014 days ago) <br>
+<strong>Created at</strong>: 2014-05-30 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 17 <a href="https://github.com/e404/htaccess-for-nginx" target="_blank" rel="noopener noreferrer">e404/htaccess-for-nginx</a> – .htaccess for nginx enables the nginx high performance webserver to deal with .htaccess files.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>htaccess</code>, <code>lua</code>, <code>nginx</code> <br>
+<strong>Watchers</strong>: 4 <strong>Forks</strong>: 15 <strong>Stars</strong>: 117 <strong>Issues</strong>: 13 <br>
+<strong>Last commit</strong>: 2023-01-31 (323 days ago) <br>
+<strong>Created at</strong>: 2020-10-20 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/mtourne/nginx_log_by_lua" target="_blank" rel="noopener noreferrer">mtourne/nginx_log_by_lua</a> – Simple example of aggregated logging using log_by_lua hooks</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 14 <strong>Forks</strong>: 26 <strong>Stars</strong>: 139 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2016-04-04 (2816 days ago) <br>
+<strong>Created at</strong>: 2012-12-05 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/peanode/simple-url-shorten" target="_blank" rel="noopener noreferrer">peanode/simple-url-shorten</a> – 基于Openresty的lua模块开发的简单网址缩短系统，特点是使用Nginx+lua+redis，性能非常高；具有域名黑名单、白名单，支持简单认证；支持自定义短网址；支持自定义短URL长度；支持自定义短网址字符前缀后缀等等</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 45 <strong>Stars</strong>: 135 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2019-10-31 (1511 days ago) <br>
+<strong>Created at</strong>: 2014-12-22 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 17 <a href="https://github.com/zheng-ji/ngx_lua_reqstatus" target="_blank" rel="noopener noreferrer">zheng-ji/ngx_lua_reqstatus</a> – 实时统计 nginx 状态的 lua 拓展</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 13 <strong>Forks</strong>: 41 <strong>Stars</strong>: 133 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2016-07-03 (2727 days ago) <br>
+<strong>Created at</strong>: 2015-12-25 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 16 <a href="https://github.com/iresty/lua-resty-test" target="_blank" rel="noopener noreferrer">iresty/lua-resty-test</a> – Lua test frame for the ngx_lua based on Openresty</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 32 <strong>Stars</strong>: 128 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2019-09-25 (1548 days ago) <br>
+<strong>Created at</strong>: 2015-05-30 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 16 <a href="https://github.com/weibocom/motan-openresty" target="_blank" rel="noopener noreferrer">weibocom/motan-openresty</a> – A cross-language RPC framework for rapid development of high performance distributed services based on OpenResty.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cloud-native</code>, <code>lua</code>, <code>luajit</code>, <code>microservice</code>, <code>motan-openresty</code>, <code>nginx</code>, <code>openresty</code>, <code>rpc</code>, <code>service-mesh</code> <br>
+<strong>Watchers</strong>: 20 <strong>Forks</strong>: 28 <strong>Stars</strong>: 123 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2020-03-31 (1359 days ago) <br>
+<strong>Created at</strong>: 2017-10-30 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 16 <a href="https://github.com/anjia0532/lua-resty-redis-util" target="_blank" rel="noopener noreferrer">anjia0532/lua-resty-redis-util</a> – openresty/lua-resty-redis 封装工具类</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>lua-resty-redis</code>, <code>nginx</code>, <code>openresty</code>, <code>redis</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 39 <strong>Stars</strong>: 121 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2022-09-06 (471 days ago) <br>
+<strong>Created at</strong>: 2017-08-16 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 16 <a href="https://github.com/api7/lua-resty-ipmatcher" target="_blank" rel="noopener noreferrer">api7/lua-resty-ipmatcher</a> – High-performance match IP address for Nginx + Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cidr-format</code>, <code>ipv4</code>, <code>ipv6-address</code>, <code>lua</code>, <code>openresty</code>, <code>parse</code> <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 40 <strong>Stars</strong>: 112 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2023-06-19 (185 days ago) <br>
+<strong>Created at</strong>: 2019-09-08 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 16 <a href="https://github.com/nixuehan/Belial" target="_blank" rel="noopener noreferrer">nixuehan/Belial</a> – 基于nginx lua module 的一个 waf .</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 23 <strong>Forks</strong>: 46 <strong>Stars</strong>: 117 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2013-09-12 (3751 days ago) <br>
+<strong>Created at</strong>: 2013-08-31 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 16 <a href="https://github.com/isage/lua-resty-moongoo" target="_blank" rel="noopener noreferrer">isage/lua-resty-moongoo</a> – MongoDB library for OpenResty</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 31 <strong>Stars</strong>: 113 <strong>Issues</strong>: 8 <br>
+<strong>Last commit</strong>: 2020-09-15 (1191 days ago) <br>
+<strong>Created at</strong>: 2015-10-30 <br>
+<strong>License</strong>: Do What The F*ck You Want To Public License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/bungle/lua-resty-route" target="_blank" rel="noopener noreferrer">bungle/lua-resty-route</a> – URL Routing Library for OpenResty Supporting Pluggable Matching Engines</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>lua-resty-route</code>, <code>luajit</code>, <code>nginx</code>, <code>openresty</code>, <code>routing</code>, <code>routing-engine</code> <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 27 <strong>Stars</strong>: 99 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2018-06-26 (2003 days ago) <br>
+<strong>Created at</strong>: 2015-10-01 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/thibaultcha/lua-cassandra" target="_blank" rel="noopener noreferrer">thibaultcha/lua-cassandra</a> – Pure Lua driver for Apache Cassandra</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cassandra</code>, <code>lua</code>, <code>lua-resty</code>, <code>luajit</code>, <code>ngx-lua</code>, <code>openresty</code> <br>
+<strong>Watchers</strong>: 14 <strong>Forks</strong>: 36 <strong>Stars</strong>: 99 <strong>Issues</strong>: 12 <br>
+<strong>Last commit</strong>: 2022-09-20 (457 days ago) <br>
+<strong>Created at</strong>: 2015-05-31 <br>
+<strong>License</strong>: Other</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/LazyZhu/lua-resty-ssdb" target="_blank" rel="noopener noreferrer">LazyZhu/lua-resty-ssdb</a> – Lua ssdb client driver for the ngx_lua based on the cosocket API, SSDB is a  leveldb server.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 12 <strong>Forks</strong>: 57 <strong>Stars</strong>: 100 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2019-07-11 (1623 days ago) <br>
+<strong>Created at</strong>: 2013-01-31 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/hnlq715/nginx-prometheus-metrics" target="_blank" rel="noopener noreferrer">hnlq715/nginx-prometheus-metrics</a> – A production demo to collect prometheus metrics for nginx with lua embedded.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua-nginx-module</code>, <code>metrics</code>, <code>nginx</code>, <code>prometheus</code> <br>
+<strong>Watchers</strong>: 4 <strong>Forks</strong>: 33 <strong>Stars</strong>: 95 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2018-03-08 (2113 days ago) <br>
+<strong>Created at</strong>: 2017-06-06 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/tietang/ngx-lua-zuul" target="_blank" rel="noopener noreferrer">tietang/ngx-lua-zuul</a> – 基于Nginx&amp;Lua 和Netflix Eureka的微服务网关。请看看：<a href="https://github.com/tietang/zebra" target="_blank" rel="noopener noreferrer">https://github.com/tietang/zebra</a></summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>api-gateway</code>, <code>discovery</code>, <code>eureka-nginx-lua</code>, <code>gateway</code>, <code>lua-netflix-eureka</code>, <code>nginx-lua</code>, <code>ngx-lua-zuul</code>, <code>zuul</code> <br>
+<strong>Watchers</strong>: 18 <strong>Forks</strong>: 32 <strong>Stars</strong>: 96 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2017-10-11 (2261 days ago) <br>
+<strong>Created at</strong>: 2016-06-24 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/hopesoft/nginx-lua-image-module" target="_blank" rel="noopener noreferrer">hopesoft/nginx-lua-image-module</a> – A nginx module to resize, crop images</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 16 <strong>Forks</strong>: 41 <strong>Stars</strong>: 94 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2022-01-03 (717 days ago) <br>
+<strong>Created at</strong>: 2014-08-02 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/ledgetech/lua-resty-qless" target="_blank" rel="noopener noreferrer">ledgetech/lua-resty-qless</a> – Lua binding to Qless (Queue / Pipeline management) for OpenResty / Redis</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>job-queue</code>, <code>lua</code>, <code>luajit</code>, <code>nginx</code>, <code>openresty</code>, <code>queue</code>, <code>redis</code>, <code>redis-queue</code> <br>
+<strong>Watchers</strong>: 16 <strong>Forks</strong>: 12 <strong>Stars</strong>: 93 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2022-07-08 (530 days ago) <br>
+<strong>Created at</strong>: 2014-01-28 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 15 <a href="https://github.com/solso/api-aggregator" target="_blank" rel="noopener noreferrer">solso/api-aggregator</a> – Aggregate REST API calls easily on a sandboxed Nginx+Lua env</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 8 <strong>Stars</strong>: 93 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2013-04-17 (3899 days ago) <br>
+<strong>Created at</strong>: 2013-04-11 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/zrbcool/prometheus-lua-nginx" target="_blank" rel="noopener noreferrer">zrbcool/prometheus-lua-nginx</a> – API Gateway monitoring tools, out-of-box dashboard helps you find out performance issue,help improve SLA.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>api-gateway</code>, <code>grafana</code>, <code>monitoring</code>, <code>nginx</code>, <code>openresty</code>, <code>prometheus</code> <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 27 <strong>Stars</strong>: 84 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2019-07-06 (1628 days ago) <br>
+<strong>Created at</strong>: 2019-06-18 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/iqiyi/lua-resty-couchbase" target="_blank" rel="noopener noreferrer">iqiyi/lua-resty-couchbase</a> – Lua couchbase client driver for the ngx_lua based on the cosocket API / 使用cosocket纯lua实现的couchbase的client，已经在爱奇艺重要的服务播放服务稳定运行5年多</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>cosocket</code>, <code>couchbase</code>, <code>couchbase-client-driver</code>, <code>lua</code>, <code>lua-couchbase</code>, <code>lua-resty-couchbase</code>, <code>luajit</code>, <code>n1ql</code>, <code>nginx</code>, <code>ngx</code>, <code>ngx-lua</code>, <code>resty</code> <br>
+<strong>Watchers</strong>: 9 <strong>Forks</strong>: 10 <strong>Stars</strong>: 79 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2020-08-28 (1209 days ago) <br>
+<strong>Created at</strong>: 2020-08-20 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/ubergarm/openresty-nginx-jwt" target="_blank" rel="noopener noreferrer">ubergarm/openresty-nginx-jwt</a> – JWT Bearer Token authorization with nginx, openresty, and lua-resty-jwt.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>authorization</code>, <code>jwt-bearer</code>, <code>luarocks</code>, <code>nginx-jwt</code>, <code>openresty-module</code>, <code>reverse-proxy</code> <br>
+<strong>Watchers</strong>: 3 <strong>Forks</strong>: 31 <strong>Stars</strong>: 87 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2018-12-17 (1829 days ago) <br>
+<strong>Created at</strong>: 2016-09-14 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 14 <a href="https://github.com/openresty/lua-ssl-nginx-module" target="_blank" rel="noopener noreferrer">openresty/lua-ssl-nginx-module</a> – NGINX C module that extends ngx_http_lua_module for enhanced SSL/TLS capabilities</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 25 <strong>Forks</strong>: 30 <strong>Stars</strong>: 86 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2023-08-12 (131 days ago) <br>
+<strong>Created at</strong>: 2016-10-26 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/duhoobo/lua-resty-smtp" target="_blank" rel="noopener noreferrer">duhoobo/lua-resty-smtp</a> – I must be crazy trying to send mail with Nginx. </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 33 <strong>Stars</strong>: 86 <strong>Issues</strong>: 12 <br>
+<strong>Last commit</strong>: 2021-02-28 (1025 days ago) <br>
+<strong>Created at</strong>: 2014-04-05 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/vovolie/lua-nginx-prometheus" target="_blank" rel="noopener noreferrer">vovolie/lua-nginx-prometheus</a> – Monitoring nginx using prometheus </summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 37 <strong>Stars</strong>: 83 <strong>Issues</strong>: 2 <br>
+<strong>Last commit</strong>: 2018-03-06 (2115 days ago) <br>
+<strong>Created at</strong>: 2017-07-01 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/fffonion/lua-resty-sniproxy" target="_blank" rel="noopener noreferrer">fffonion/lua-resty-sniproxy</a> – SNI Proxy based on stream-lua-nginx-module</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>ngx-stream-lua</code>, <code>openresty</code>, <code>sniproxy</code> <br>
+<strong>Watchers</strong>: 4 <strong>Forks</strong>: 18 <strong>Stars</strong>: 84 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2020-08-31 (1206 days ago) <br>
+<strong>Created at</strong>: 2016-06-05 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/rrfeng/lua-resty-upstream-etcd" target="_blank" rel="noopener noreferrer">rrfeng/lua-resty-upstream-etcd</a> – An OpenResty lua module that can use upstream config in etcd and Kubernetes.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 37 <strong>Stars</strong>: 83 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2020-04-27 (1333 days ago) <br>
+<strong>Created at</strong>: 2016-03-16 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/netxfly/nginx_lua_security" target="_blank" rel="noopener noreferrer">netxfly/nginx_lua_security</a> – 浅谈nginx+lua在安全中的应用</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 30 <strong>Stars</strong>: 81 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2017-05-04 (2421 days ago) <br>
+<strong>Created at</strong>: 2016-05-31 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/azurewang/lua-resty-fastdfs" target="_blank" rel="noopener noreferrer">azurewang/lua-resty-fastdfs</a> – Nonblocking Lua FastDFS driver library for ngx_lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 35 <strong>Stars</strong>: 82 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2015-04-20 (3166 days ago) <br>
+<strong>Created at</strong>: 2013-03-19 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/pintsized/lua-resty-rack" target="_blank" rel="noopener noreferrer">pintsized/lua-resty-rack</a> – A simple and extensible HTTP server framework for OpenResty.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 15 <strong>Stars</strong>: 81 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2012-08-09 (4150 days ago) <br>
+<strong>Created at</strong>: 2012-05-31 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/tokers/lua-resty-http2" target="_blank" rel="noopener noreferrer">tokers/lua-resty-http2</a> – The HTTP/2 Protocol (Client Side) Implementation for OpenResty.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>http2</code>, <code>lua-resty</code>, <code>openresty</code> <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 12 <strong>Stars</strong>: 75 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2020-02-04 (1415 days ago) <br>
+<strong>Created at</strong>: 2018-08-24 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/ddonline/nginx-lua-waf" target="_blank" rel="noopener noreferrer">ddonline/nginx-lua-waf</a> – Nginx-Lua-WAF是一款基于Nginx的使用Lua语言开发的灵活高效的Web应用层防火墙</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>lua</code>, <code>nginx-lua-waf</code>, <code>openresty</code>, <code>waf</code> <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 29 <strong>Stars</strong>: 75 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2018-09-17 (1921 days ago) <br>
+<strong>Created at</strong>: 2018-05-03 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/leafo/heroku-openresty" target="_blank" rel="noopener noreferrer">leafo/heroku-openresty</a> – Run OpenResty on Heroku with the Lua buildpack</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 25 <strong>Stars</strong>: 78 <strong>Issues</strong>: 8 <br>
+<strong>Last commit</strong>: 2015-06-02 (3123 days ago) <br>
+<strong>Created at</strong>: 2012-11-08 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/medcl/lua-resty-weedfs" target="_blank" rel="noopener noreferrer">medcl/lua-resty-weedfs</a> – weefs,lua,nginx and file post processing with ffmpeg and graphicsmagick</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 22 <strong>Stars</strong>: 77 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2016-11-04 (2602 days ago) <br>
+<strong>Created at</strong>: 2012-09-17 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 14 <a href="https://github.com/vislee/lua-resty-dns-server" target="_blank" rel="noopener noreferrer">vislee/lua-resty-dns-server</a> – Lua DNS server driver for OpenResty</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>dns-server</code>, <code>lua-dns</code>, <code>openresty</code> <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 27 <strong>Stars</strong>: 73 <strong>Issues</strong>: 3 <br>
+<strong>Last commit</strong>: 2023-03-14 (281 days ago) <br>
+<strong>Created at</strong>: 2018-01-04 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/grasses/nginx-lua-static-merger" target="_blank" rel="noopener noreferrer">grasses/nginx-lua-static-merger</a> – Static files merger base on openresty</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 6 <strong>Forks</strong>: 35 <strong>Stars</strong>: 74 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2015-07-10 (3085 days ago) <br>
+<strong>Created at</strong>: 2015-06-22 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/spro/simon" target="_blank" rel="noopener noreferrer">spro/simon</a> – Dynamic routing/vhosts with nginx + Lua + Redis</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 8 <strong>Stars</strong>: 71 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2017-04-01 (2454 days ago) <br>
+<strong>Created at</strong>: 2015-01-14 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/songweihang/knight" target="_blank" rel="noopener noreferrer">songweihang/knight</a> – Nginx Http 集群api 统计监控、灰度发布、频率控制</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>abtest</code>, <code>api-cc</code>, <code>lua</code>, <code>nginx</code>, <code>nginx-lua</code> <br>
+<strong>Watchers</strong>: 7 <strong>Forks</strong>: 36 <strong>Stars</strong>: 70 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2017-10-31 (2242 days ago) <br>
+<strong>Created at</strong>: 2016-03-31 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/jbochi/lua-resty-cassandra" target="_blank" rel="noopener noreferrer">jbochi/lua-resty-cassandra</a> – Pure Lua Cassandra client using CQL binary protocol</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 4 <strong>Forks</strong>: 18 <strong>Stars</strong>: 67 <strong>Issues</strong>: 5 <br>
+<strong>Last commit</strong>: 2017-06-09 (2385 days ago) <br>
+<strong>Created at</strong>: 2014-07-07 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/torhve/lua-resty-letsencrypt" target="_blank" rel="noopener noreferrer">torhve/lua-resty-letsencrypt</a> – Lua script for Nginx to automatically get certificates from LetsEncrypt CA</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 4 <strong>Forks</strong>: 11 <strong>Stars</strong>: 66 <strong>Issues</strong>: 4 <br>
+<strong>Last commit</strong>: 2017-06-14 (2380 days ago) <br>
+<strong>Created at</strong>: 2016-03-08 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/wubonetcn/luawaf" target="_blank" rel="noopener noreferrer">wubonetcn/luawaf</a> – A secure and privately deployable web application firewall(WAF).一个安全、可私有部署的Web应用防火墙(WAF)。</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>firewalls</code>, <code>lua</code>, <code>nginx</code>, <code>waf</code> <br>
+<strong>Watchers</strong>: 3 <strong>Forks</strong>: 16 <strong>Stars</strong>: 62 <strong>Issues</strong>: 7 <br>
+<strong>Last commit</strong>: 2022-06-11 (557 days ago) <br>
+<strong>Created at</strong>: 2019-06-12 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/leafo/image-server-tutorial" target="_blank" rel="noopener noreferrer">leafo/image-server-tutorial</a> – An example of an image processing server in OpenResty and Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 18 <strong>Stars</strong>: 65 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2013-09-20 (3743 days ago) <br>
+<strong>Created at</strong>: 2013-09-20 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/woothee/lua-resty-woothee" target="_blank" rel="noopener noreferrer">woothee/lua-resty-woothee</a> – Woothee Lua-Openresty implementation</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 5 <strong>Forks</strong>: 14 <strong>Stars</strong>: 63 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2021-10-13 (798 days ago) <br>
+<strong>Created at</strong>: 2014-11-01 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/azurewang/lua-resty-postgres" target="_blank" rel="noopener noreferrer">azurewang/lua-resty-postgres</a> – Nonblocking Lua PostgreSQL driver library for ngx_lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 22 <strong>Stars</strong>: 63 <strong>Issues</strong>: 6 <br>
+<strong>Last commit</strong>: 2022-04-18 (611 days ago) <br>
+<strong>Created at</strong>: 2013-02-19 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/bungle/lua-resty-uuid" target="_blank" rel="noopener noreferrer">bungle/lua-resty-uuid</a> – LuaJIT FFI bindings for libuuid, a DCE compatible Universally Unique Identifier library.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 41 <strong>Stars</strong>: 60 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2016-04-21 (2799 days ago) <br>
+<strong>Created at</strong>: 2014-10-22 <br>
+<strong>License</strong>: BSD 2-Clause &quot;Simplified&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 10 <a href="https://github.com/upyun/slardar" target="_blank" rel="noopener noreferrer">upyun/slardar</a> – Updating your upstream list and run lua scripts without reloading Nginx.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 42 <strong>Forks</strong>: 111 <strong>Stars</strong>: 496 <strong>Issues</strong>: 13 <br>
+<strong>Last commit</strong>: 2019-11-11 (1501 days ago) <br>
+<strong>Created at</strong>: 2016-08-18 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 7 <a href="https://github.com/cloudflare/nginx-google-oauth" target="_blank" rel="noopener noreferrer">cloudflare/nginx-google-oauth</a> – Lua module to add Google OAuth to nginx</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 45 <strong>Forks</strong>: 105 <strong>Stars</strong>: 428 <strong>Issues</strong>: 15 <br>
+<strong>Last commit</strong>: 2020-04-07 (1352 days ago) <br>
+<strong>Created at</strong>: 2016-03-13 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 -2 <a href="https://github.com/Kong/lua-resty-dns-client" target="_blank" rel="noopener noreferrer">Kong/lua-resty-dns-client</a> – Lua DNS client, load balancer, and utility library</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 34 <strong>Forks</strong>: 51 <strong>Stars</strong>: 149 <strong>Issues</strong>: 10 <br>
+<strong>Last commit</strong>: 2023-07-10 (163 days ago) <br>
+<strong>Created at</strong>: 2016-05-19 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="other">other<a href="#other" class="hash-link" aria-label="Direct link to other" title="Direct link to other">​</a></h2>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚪ 62 <a href="https://github.com/HDoujinDownloader/HDoujinDownloader" target="_blank" rel="noopener noreferrer">HDoujinDownloader/HDoujinDownloader</a> – An easy-to-use manga and dōjinshi downloader supporting 800+ different websites</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>doujinshi</code>, <code>download-manager</code>, <code>downloader</code>, <code>exhentai</code>, <code>hdoujin-downloader</code>, <code>lua</code>, <code>manga</code>, <code>manga-downloader</code>, <code>nhentai</code>, <code>scraper</code> <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 19 <strong>Stars</strong>: 363 <strong>Issues</strong>: 123 <br>
+<strong>Last commit</strong>: 2023-12-20 (0 days ago) <br>
+<strong>Created at</strong>: 2019-10-01 <br>
+<strong>License</strong>: none</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 54 <a href="https://github.com/luakit/luakit" target="_blank" rel="noopener noreferrer">luakit/luakit</a> – Fast, small, webkit based browser framework extensible by Lua.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>c</code>, <code>lua</code>, <code>luajit</code>, <code>luakit</code>, <code>vim-like</code>, <code>web-browser</code> <br>
+<strong>Watchers</strong>: 86 <strong>Forks</strong>: 254 <strong>Stars</strong>: 1924 <strong>Issues</strong>: 223 <br>
+<strong>Last commit</strong>: 2023-08-03 (139 days ago) <br>
+<strong>Created at</strong>: 2010-08-08 <br>
+<strong>License</strong>: GNU General Public License v3.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 24 <a href="https://github.com/cfadmin-cn/cfadmin" target="_blank" rel="noopener noreferrer">cfadmin-cn/cfadmin</a> – A lua web network framework.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: <code>admin</code>, <code>cfadmin</code>, <code>dns</code>, <code>http</code>, <code>http2</code>, <code>libev</code>, <code>lua</code>, <code>web</code> <br>
+<strong>Watchers</strong>: 21 <strong>Forks</strong>: 84 <strong>Stars</strong>: 302 <strong>Issues</strong>: 0 <br>
+<strong>Last commit</strong>: 2023-08-07 (135 days ago) <br>
+<strong>Created at</strong>: 2018-10-18 <br>
+<strong>License</strong>: BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🔴 21 <a href="https://github.com/golgote/neturl" target="_blank" rel="noopener noreferrer">golgote/neturl</a> – URL and Query string parser, builder, normalizer for Lua</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 11 <strong>Forks</strong>: 78 <strong>Stars</strong>: 235 <strong>Issues</strong>: 8 <br>
+<strong>Last commit</strong>: 2023-01-30 (324 days ago) <br>
+<strong>Created at</strong>: 2011-11-21 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 16 <a href="https://github.com/cloudflare/raven-lua" target="_blank" rel="noopener noreferrer">cloudflare/raven-lua</a> – A Lua interface to Sentry</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 15 <strong>Forks</strong>: 56 <strong>Stars</strong>: 113 <strong>Issues</strong>: 18 <br>
+<strong>Last commit</strong>: 2022-08-01 (506 days ago) <br>
+<strong>Created at</strong>: 2013-12-23 <br>
+<strong>License</strong>: BSD 3-Clause &quot;New&quot; or &quot;Revised&quot; License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>🟤 15 <a href="https://github.com/haproxytech/haproxy-lua-oauth" target="_blank" rel="noopener noreferrer">haproxytech/haproxy-lua-oauth</a> – JWT Validation implementation for HAProxy Lua host</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 10 <strong>Forks</strong>: 47 <strong>Stars</strong>: 100 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2023-08-14 (129 days ago) <br>
+<strong>Created at</strong>: 2019-01-22 <br>
+<strong>License</strong>: Apache License 2.0</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 14 <a href="https://github.com/karai17/lapis-chan" target="_blank" rel="noopener noreferrer">karai17/lapis-chan</a> – Image board software written in Lua using the Lapis web framework.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 6 <strong>Forks</strong>: 17 <strong>Stars</strong>: 87 <strong>Issues</strong>: 39 <br>
+<strong>Last commit</strong>: 2021-03-25 (1000 days ago) <br>
+<strong>Created at</strong>: 2016-01-22 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ 13 <a href="https://github.com/brimworks/lua-http-parser" target="_blank" rel="noopener noreferrer">brimworks/lua-http-parser</a> – Lua binding to Ryan Dahl&#x27;s &quot;http-parser&quot;.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 8 <strong>Forks</strong>: 19 <strong>Stars</strong>: 69 <strong>Issues</strong>: 1 <br>
+<strong>Last commit</strong>: 2022-01-31 (688 days ago) <br>
+<strong>Created at</strong>: 2010-05-06 <br>
+<strong>License</strong>: MIT License</p></div></div></details>
+<details class="details_lb9f alert alert--info details_b_Ee" data-collapsed="true"><summary>⚫ -1 <a href="https://github.com/APItools/router.lua" target="_blank" rel="noopener noreferrer">APItools/router.lua</a> – A barebones router for Lua. It matches urls and executes lua functions.</summary><div><div class="collapsibleContent_i85q"><p><strong>Topics</strong>: none <br>
+<strong>Watchers</strong>: 14 <strong>Forks</strong>: 47 <strong>Stars</strong>: 192 <strong>Issues</strong>: 7 <br>
+<strong>Last commit</strong>: 2020-07-14 (1254 days ago) <br>
+<strong>Created at</strong>: 2013-06-18 <br>
+<strong>License</strong>: MIT License</p></div></div></details></div></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/utils-small-libs"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">🔧 Utils / Small libs</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/api-services"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">🔗 API services</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#frameworks" class="table-of-contents__link toc-highlight">Frameworks</a></li><li><a href="#clients" class="table-of-contents__link toc-highlight">Clients</a></li><li><a href="#servers" class="table-of-contents__link toc-highlight">Servers</a></li><li><a href="#templating" class="table-of-contents__link toc-highlight">Templating</a></li><li><a href="#openresty-ngx" class="table-of-contents__link toc-highlight">OpenResty (ngx)</a></li><li><a href="#other" class="table-of-contents__link toc-highlight">other</a></li></ul></div></div></div></div></main></div></div></div></div>
+</body>
+</html>
